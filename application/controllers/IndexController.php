@@ -5,12 +5,9 @@ class IndexController extends Zend_Controller_Action
 	public $dependencies = array(
 //        'db',
 //        'navigation',
+		'doctrine'
     );
 	
-	public function init ()
-    {
-        $this->_em = Zend_Registry::get('entitymanager');
-    }
     public function indexAction ()
     {
         $test = new Application_Model_Test();
@@ -18,7 +15,7 @@ class IndexController extends Zend_Controller_Action
         
         
         /* @var \Zend_Application_Bootstrap $this->_bootstrap */ 
-//        $this->_em->persist($test);
-//        $this->_em->flush();
+        $this->_doctrine->persist($test);
+        $this->_doctrine->flush();
     }
 }

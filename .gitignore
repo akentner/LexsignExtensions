@@ -1,5 +1,4 @@
 /data
-.zfproject.xml
+/.settings
 .project
 .buildpath
-/.settings

@@ -20,12 +20,24 @@
 
     <testsuites>
         <testsuite name="Application">
-            <directory>/tests/application/*Test.php</directory>
+            <directory>./tests/application/*Test.php</directory>
         </testsuite>
         <testsuite name="LexsignExtensions">
-            <directory>/tests/library/LexsignExtensions/*Test.php</directory>
+            <directory>./tests/library/LexsignExtensions/*Test.php</directory>
         </testsuite>
     </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../src/application/</directory>
+            <directory suffix=".php">../src/library/LexsignExtensions</directory>
+            <exclude>
+                <directory suffix=".phtml">../src/application/</directory>
+                <file>../src/application/Bootstrap.php</file>
+                <file>../src/application/controllers/ErrorController.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
 
     <logging>
         <log type="coverage-html" target="build/coverage" title="Name of Project"

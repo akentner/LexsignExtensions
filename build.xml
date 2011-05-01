@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="name-of-project" default="build" basedir=".">
+<project name="LexsignExtensions" default="build" basedir=".">
 
     <property name="source" value="src"/>
 
@@ -30,11 +30,11 @@
             <sequential>
                 <antcall target="pdepend"/>
                 <antcall target="phpmd"/>
+            </sequential>
                 <antcall target="phpcpd"/>
                 <antcall target="phpcs"/>
                 <antcall target="phpdoc"/>
                 <antcall target="phploc"/>
-            </sequential>
         </parallel>
     </target>
 

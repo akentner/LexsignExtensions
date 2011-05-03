@@ -13,6 +13,7 @@ class LexsignExtensions_Controller_Action_Helper_ResourceInjector
 	extends \Zend_Controller_Action_Helper_Abstract
 {
     protected $_resources;
+    protected $_controller;
 
     public function preDispatch ()
     {
@@ -20,44 +21,47 @@ class LexsignExtensions_Controller_Action_Helper_ResourceInjector
     	$log = Zend_Registry::get('log');
        	$log->log(__METHOD__ . ' (START)', 8);
 
-    	$controller = $this->getActionController();
-        $controller->_bootstrap = $this->getBootstrap();
+    	$this->_controller = $this->getActionController();
+        $this->_controller->_bootstrap = $this->getBootstrap();
 
-        $defaultDependencies =
-        	$this->getFrontController()
-        	     ->getParam('defaultDependencies') ? : array();
-
-        $controller->dependencies =
-        	(is_array($controller->dependencies)) ? $controller->dependencies : array();
-
-        $controller->dependencies = array_unique(
-        	array_merge(
-        		$defaultDependencies,
-        		$controller->dependencies
-        	)
-        );
-
-        foreach ($controller->dependencies as $name) {
+        foreach ($this->_getDependencies() as $name) {
 
             if ($this->getBootstrap()->hasPluginResource($name)) {
             	$fn = 'get' . ucfirst($name);
             	$resource = $this->getBootstrap()->getPluginResource($name)->$fn();
-	            $controller->{'_' . $name} = $resource;
+	            $this->_controller->{'_' . $name} = $resource;
 	        	$log->log('  -- injected plugin resource "$_' . $name . '" as ' . get_class($resource) , 8);
             	continue;
             }
             if ($this->getBootstrap()->hasResource($name)) {
             	$resource = $this->getBootstrap()->getResource($name);
-	            $controller->{'_' . $name} = $resource;
+	            $this->_controller->{'_' . $name} = $resource;
 	        	$log->log('  -- injected resource"$_' . $name . '" as ' . get_class($resource) , 8);
             	continue;
             }
-           	throw new DomainException(
-               	"Unable to find dependency by name '$name'"
-            );
+           	throw new DomainException("Unable to find dependency by name '$name'");
         }
        	$log->log(__METHOD__ . ' (END)', 8);
         return true;
+    }
+
+    protected function _getDependencies()
+    {
+
+        $defaultDependencies =
+        	$this->getFrontController()
+        	     ->getParam('defaultDependencies') ? : array();
+
+        $this->_controller->dependencies =
+        	(is_array($this->_controller->dependencies)) ? $this->_controller->dependencies : array();
+
+        $this->_controller->dependencies = array_unique(
+        	array_merge(
+        		$defaultDependencies,
+        		$this->_controller->dependencies
+        	)
+        );
+        return $this->_controller->dependencies;
     }
 
     public function getBootstrap ()

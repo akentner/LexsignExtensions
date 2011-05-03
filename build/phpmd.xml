@@ -10,13 +10,6 @@
         My custom rule set that checks my code...
     </description>
 
-    <exclude-pattern>*/tests/*</exclude-pattern>
-    <exclude-pattern>*/src/data/*</exclude-pattern>
-    <exclude-pattern>*/src/library/Bisna/*</exclude-pattern>
-    <exclude-pattern>*/src/library/Doctrine/*</exclude-pattern>
-    <exclude-pattern>*/src/library/Symfony/*</exclude-pattern>
-
-
     <!-- Import the entire unused code rule set -->
     <rule ref="rulesets/unusedcode.xml" />
     <rule ref="rulesets/naming.xml" />

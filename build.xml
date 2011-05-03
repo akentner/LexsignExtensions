@@ -3,6 +3,7 @@
 <project name="LexsignExtensions" default="build" basedir=".">
 
     <property name="source" value="src"/>
+    <property file="build.properties"/>
 
     <target name="clean"
          description="Clean up and create artifact directories">
@@ -54,6 +55,7 @@
             <arg line="${source}
               xml
               build/phpmd.xml
+              --exclude ${phpmd.exclude}
               --reportfile ${basedir}/build/logs/pmd.xml" />
         </exec>
     </target>

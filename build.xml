@@ -55,7 +55,7 @@
             <arg line="${source}
               xml
               build/phpmd.xml
-              --exclude ${phpmd.exclude}
+              --exclude ${dir.exclude}
               --reportfile ${basedir}/build/logs/pmd.xml" />
         </exec>
     </target>
@@ -63,14 +63,18 @@
     <target name="phpcpd"
          description="Generate pmd-cpd.xml using PHPCPD">
         <exec executable="phpcpd">
-            <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml ${source}" />
+            <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml
+              --exclude ${dir.exclude}
+              ${source}" />
         </exec>
     </target>
 
     <target name="phploc"
          description="Generate phploc.csv">
         <exec executable="phploc">
-            <arg line="--log-csv ${basedir}/build/logs/phploc.csv ${source}" />
+            <arg line="--log-csv ${basedir}/build/logs/phploc.csv
+              --exclude ${dir.exclude}
+              ${source}" />
         </exec>
     </target>
 
@@ -80,6 +84,7 @@
             <arg line="--report=checkstyle
               --report-file=${basedir}/build/logs/checkstyle.xml
               --standard=build/phpcs.xml
+              --exclude ${dir.exclude}
               ${source}" />
         </exec>
     </target>

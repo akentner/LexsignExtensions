@@ -105,7 +105,7 @@
         </exec>
     </target>
 
-    <target name="copydev"
+    <target name="copy-dev"
          description="Copy to development">
              <echo message="${env.WORKSPACE}"/>
 <!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs

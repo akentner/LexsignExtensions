@@ -105,5 +105,14 @@
         </exec>
     </target>
 
-    <target name="build" depends="clean,parallelTasks,phpunit,phpcb"/>
+    <target name="copydev"
+         description="Copy to development">
+             <echo message="${env.WORKSPACE}"/>
+<!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs
+sudo cp -R /var/lib/hudson/jobs/LexsignExtensions_Development/workspace/src /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs
+sudo chown -R 33:33 /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
+
+    </target>
+
+    <target name="build" depends=""/>
 </project>

@@ -98,17 +98,20 @@
     </target>
 
     <target name="copy-dev" description="Copy to development">
+         <echo message="cleanup ${project.dev.path}"/>
          <!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
          <exec executable="sudo">
             <arg line="rm -rf ${project.dev.path}"/>
          </exec>
 
          <!--sudo cp -R /var/lib/hudson/jobs/LexsignExtensions_Development/workspace/src /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
+         <echo message="copy files to ${project.dev.path}"/>
          <exec executable="sudo">
             <arg line="cp -rv ${source} ${project.dev.path}"/>
          </exec>
 
          <!--sudo chown -R 33:33 /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
+         <echo message="chown 33:33 for ${project.dev.path}"/>
          <exec executable="sudo">
             <arg line="chown -Rv 33:33 ${project.dev.path}"/>
          </exec>

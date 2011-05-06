@@ -107,7 +107,9 @@
     </target>
 
     <target name="copy-dev" description="Copy to development">
-         <delete dir="${project.dev.path}" includes="**/*"/>
+         <exec command="sudo">
+            <arg line="rm -rf ${project.dev.path}"/>
+         </exec>
          <mkdir dir="${project.dev.path}" />
          <copy dir="${source}" todir="${project.dev.path}"/>
          <exec command="sudo">

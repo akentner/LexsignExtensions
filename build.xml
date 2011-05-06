@@ -56,7 +56,7 @@
             <arg line="${source}
               xml
               build/phpmd.xml
-              --exclude ${dir.exclude}
+              --exclude ${build.exclude.path}
               --reportfile ${basedir}/build/logs/pmd.xml" />
         </exec>
     </target>
@@ -65,7 +65,7 @@
          description="Generate pmd-cpd.xml using PHPCPD">
         <exec executable="phpcpd">
             <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml
-              --exclude ${dir.exclude}
+              --exclude ${build.exclude.path}
               ${source}" />
         </exec>
     </target>
@@ -74,7 +74,7 @@
          description="Generate phploc.csv">
         <exec executable="phploc">
             <arg line="--log-csv ${basedir}/build/logs/phploc.csv
-              --exclude ${dir.exclude}
+              --exclude ${build.exclude.path}
               ${source}" />
         </exec>
     </target>
@@ -85,7 +85,7 @@
             <arg line="--report=checkstyle
               --report-file=${basedir}/build/logs/checkstyle.xml
               --standard=build/phpcs.xml
-              --exclude ${dir.exclude}
+              --exclude ${build.exclude.path}
               ${source}" />
         </exec>
     </target>
@@ -106,33 +106,27 @@
         </exec>
     </target>
 
-    <target name="copy-dev"
-         description="Copy to development">
-             <echo message="${env.WORKSPACE}"/>
-<!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs
-sudo cp -R /var/lib/hudson/jobs/LexsignExtensions_Development/workspace/src /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs
-sudo chown -R 33:33 /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
-
+    <target name="copy-dev" description="Copy to development">
+         <delete dir="${project.dev.path}" includes="**/*"/>
+         <mkdir dir="${project.dev.path}" />
+         <copy dir="${source}" todir="${project.dev.path}"/>
+         <exec command="sudo">
+            <arg line="chown -R 33:33 ${project.dev.path}"/>
+         </exec>
     </target>
 
-    <target name="info"
-         description="Info">
-             <echo message="BUILD_NUMBER: ${env.BUILD_NUMBER}"/>
-             <echo message="JOB_NAME: ${env.JOB_NAME}"/>
-             <echo message="BUILD_TAG: ${env.BUILD_TAG}"/>
-             <echo message="EXECUTOR_NUMBER: ${env.EXECUTOR_NUMBER}"/>
-             <echo message="JAVA_HOME: ${env.JAVA_HOME}"/>
-             <echo message="WORKSPACE: ${env.WORKSPACE}"/>
-             <echo message="HUDSON_URL: ${env.HUDSON_URL}"/>
-             <echo message="BUILD_URL: ${env.BUILD_URL}"/>
-             <echo message="JOB_URL: ${env.JOB_URL}"/>
-             <echo message="SVN_REVISION: ${env.SVN_REVISION}"/>
-             <echo message="CVS_BRANCH: ${env.CVS_BRANCH}"/>
-
-<!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs
-sudo cp -R /var/lib/hudson/jobs/LexsignExtensions_Development/workspace/src /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs
-sudo chown -R 33:33 /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
-
+    <target name="info" description="Info">
+         <echo message="BUILD_NUMBER: ${env.BUILD_NUMBER}"/>
+         <echo message="JOB_NAME: ${env.JOB_NAME}"/>
+         <echo message="BUILD_TAG: ${env.BUILD_TAG}"/>
+         <echo message="EXECUTOR_NUMBER: ${env.EXECUTOR_NUMBER}"/>
+         <echo message="JAVA_HOME: ${env.JAVA_HOME}"/>
+         <echo message="WORKSPACE: ${env.WORKSPACE}"/>
+         <echo message="HUDSON_URL: ${env.HUDSON_URL}"/>
+         <echo message="BUILD_URL: ${env.BUILD_URL}"/>
+         <echo message="JOB_URL: ${env.JOB_URL}"/>
+         <echo message="SVN_REVISION: ${env.SVN_REVISION}"/>
+         <echo message="CVS_BRANCH: ${env.CVS_BRANCH}"/>
     </target>
 
     <target name="build" depends=""/>

@@ -128,5 +128,15 @@
          <echo message="CVS_BRANCH: ${env.CVS_BRANCH}"/>
     </target>
 
-    <target name="build" depends=""/>
+    <target name="build" depends="">
+        <antcall target="clean"/>
+        <antcall target="pdepend"/>
+        <antcall target="phpmd"/>
+<!--        <antcall target="phpcpd"/>-->
+        <antcall target="phpcs"/>
+<!--        <antcall target="phpdoc"/>-->
+<!--        <antcall target="phploc"/>-->
+<!--        <antcall target="phpunit"/>-->
+<!--        <antcall target="phpcb"/>-->
+    </target>
 </project>

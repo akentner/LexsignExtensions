@@ -99,13 +99,13 @@
 
     <target name="copy-dev" description="Copy to development">
          <exec executable="sudo">
-            <arg line="rm -rf ${project.dev.path}/*"/>
+            <arg line="rm -rfv ${project.dev.path}/*"/>
          </exec>
          <exec executable="sudo">
-            <arg line="cp -r ${source} ${project.dev.path}"/>
+            <arg line="cp -rv ${source}/* ${project.dev.path}"/>
          </exec>
          <exec executable="sudo">
-            <arg line="chown -R 33:33 ${project.dev.path}"/>
+            <arg line="chown -Rv 33:33 ${project.dev.path}"/>
          </exec>
     </target>
 

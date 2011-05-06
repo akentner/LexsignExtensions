@@ -98,12 +98,17 @@
     </target>
 
     <target name="copy-dev" description="Copy to development">
+         <!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
          <exec executable="sudo">
-            <arg line="rm -rfv ${project.dev.path}/*"/>
+            <arg line="rm -rf ${project.dev.path}"/>
          </exec>
+
+         <!--sudo cp -R /var/lib/hudson/jobs/LexsignExtensions_Development/workspace/src /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
          <exec executable="sudo">
-            <arg line="cp -rv ${source}/* ${project.dev.path}"/>
+            <arg line="cp -rv ${source} ${project.dev.path}"/>
          </exec>
+
+         <!--sudo chown -R 33:33 /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
          <exec executable="sudo">
             <arg line="chown -Rv 33:33 ${project.dev.path}"/>
          </exec>

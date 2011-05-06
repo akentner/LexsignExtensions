@@ -108,10 +108,11 @@
 
     <target name="copy-dev" description="Copy to development">
          <exec command="sudo">
-            <arg line="rm -rf ${project.dev.path}"/>
+            <arg line="rm -rf ${project.dev.path}/*"/>
          </exec>
-         <mkdir dir="${project.dev.path}" />
-         <copy dir="${source}" todir="${project.dev.path}"/>
+         <exec command="sudo">
+            <arg line="cp -r ${source} ${project.dev.path}"/>
+         </exec>
          <exec command="sudo">
             <arg line="chown -R 33:33 ${project.dev.path}"/>
          </exec>

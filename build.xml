@@ -121,8 +121,8 @@
         <antcall target="deploy-vhosts" />
 
         <echo message="Reload Apache Config"/>
-        <exec executable="/etc/init.d/apache">
-            <arg line="reload"/>
+        <exec executable="service">
+            <arg line="apache2 reload"/>
         </exec>
     </target>
 

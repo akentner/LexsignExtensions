@@ -38,11 +38,7 @@
     </target>
 
     <target name="pdepend" description="Generate jdepend.xml and software metrics charts using PHP_Depend">
-        <echo message="pdepend
-            --jdepend-xml=${basedir}/build/logs/jdepend.xml
-            --jdepend-chart=${basedir}/build/pdepend/dependencies.svg
-            --overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg
-            ${source.path}" />
+        <echo message="pdepend --jdepend-xml=${basedir}/build/logs/jdepend.xml --jdepend-chart=${basedir}/build/pdepend/dependencies.svg --overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg  ${source.path}" />
         <exec executable="pdepend">
             <arg line="--jdepend-xml=${basedir}/build/logs/jdepend.xml"/>
             <arg line="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg"/>
@@ -52,12 +48,7 @@
     </target>
 
     <target name="phpmd" description="Generate pmd.xml using PHPMD">
-        <echo message="phpmd
-            ${source.path}
-            xml
-            build/phpmd.xml
-            --exclude ${build.exclude.path}
-            --reportfile ${basedir}/build/logs/pmd.xml" />
+        <echo message="phpmd ${source.path} xml build/phpmd.xml --exclude ${build.exclude.path} --reportfile ${basedir}/build/logs/pmd.xml" />
         <exec executable="phpmd" output="${basedir}/build/logs/phpmd.log">
             <arg line="${source.path}" />
             <arg line="xml" />

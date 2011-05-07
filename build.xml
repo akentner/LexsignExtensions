@@ -11,12 +11,14 @@
         <delete dir="${basedir}/build/coverage"/>
         <delete dir="${basedir}/build/logs"/>
         <delete dir="${basedir}/build/pdepend"/>
+        <delete dir="${basedir}/build/tmp"/>
 
         <mkdir dir="${basedir}/build/api"/>
         <mkdir dir="${basedir}/build/code-browser"/>
         <mkdir dir="${basedir}/build/coverage"/>
         <mkdir dir="${basedir}/build/logs"/>
         <mkdir dir="${basedir}/build/pdepend"/>
+        <mkdir dir="${basedir}/build/tmp"/>
     </target>
 
     <target name="phpunit" description="Run unit tests using PHPUnit and generates junit.xml and clover.xml">
@@ -131,12 +133,16 @@
         <echo message="deploy vhosts to ${deploy.home}/conf"/>
         <property name="application-env" value="development" />
         <property file="${application-env}.properties"/>
-        <delete file="${deploy.home}/conf/vhosts.conf"/>
-        <copy file="${basedir}/conf/vhosts.${application-env}.tpl" tofile="${deploy.home}/conf/vhosts.conf">
+        <delete file="${temp.path}/vhosts.conf"/>
+        <copy file="${basedir}/conf/vhosts.${application-env}.tpl" tofile="${temp.path}/vhosts.conf">
             <filterchain>
                 <expandproperties />
             </filterchain>
         </copy>
+        <exec executable="sudo">
+            <arg line="cp -r ${temp.path}/vhosts.conf ${deploy.home}/conf/vhosts.conf"/>
+        </exec>
+
     </target>
 
     <target name="apache-reload" description="Reload Apache Config">

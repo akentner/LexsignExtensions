@@ -147,8 +147,8 @@
 
     <target name="apache-reload" description="Reload Apache Config">
         <echo message="Reload Apache Config"/>
-        <exec executable="service">
-            <arg line="apache2 reload"/>
+        <exec executable="sudo">
+            <arg line="service apache2 reload"/>
         </exec>
     </target>
 

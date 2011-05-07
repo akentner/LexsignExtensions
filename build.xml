@@ -2,7 +2,6 @@
 
 <project name="LexsignExtensions" default="build" basedir=".">
 
-    <property name="source" value="src"/>
     <property environment="env" />
     <property file="build.properties"/>
 
@@ -31,25 +30,25 @@
                 <antcall target="pdepend"/>
                 <antcall target="phpmd"/>
             </sequential>
-                <antcall target="phpcpd"/>
-                <antcall target="phpcs"/>
-                <antcall target="phpdoc"/>
-                <antcall target="phploc"/>
+            <antcall target="phpcpd"/>
+            <antcall target="phpcs"/>
+            <antcall target="phpdoc"/>
+            <antcall target="phploc"/>
         </parallel>
     </target>
 
     <target name="pdepend" description="Generate jdepend.xml and software metrics charts using PHP_Depend">
         <exec executable="pdepend">
             <arg line="--jdepend-xml=${basedir}/build/logs/jdepend.xml"/>
-              <arg line="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg"/>
-              <arg line="--overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg"/>
-              <arg line="${source}" />
+            <arg line="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg"/>
+            <arg line="--overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg"/>
+            <arg line="${source.path}" />
         </exec>
     </target>
 
     <target name="phpmd" description="Generate pmd.xml using PHPMD">
         <exec executable="phpmd">
-            <arg line="${source}" />
+            <arg line="${source.path}" />
             <arg line="xml" />
             <arg line="build/phpmd.xml" />
             <arg line="--exclude ${build.exclude.path}" />
@@ -61,7 +60,7 @@
         <exec executable="phpcpd">
             <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml" />
             <arg line="--exclude ${build.exclude.path}" />
-            <arg line="${source}" />
+            <arg line="${source.path}" />
         </exec>
     </target>
 
@@ -69,7 +68,7 @@
         <exec executable="phploc">
             <arg line="--log-csv ${basedir}/build/logs/phploc.csv" />
             <arg line="--exclude ${build.exclude.path}" />
-            <arg line="${source}" />
+            <arg line="${source.path}" />
         </exec>
     </target>
 
@@ -79,56 +78,79 @@
             <arg line="--report-file=${basedir}/build/logs/checkstyle.xml "/>
             <arg line="--standard=build/phpcs.xml "/>
             <arg line="--exclude ${build.exclude.path} "/>
-            <arg line="${source}" />
+            <arg line="${source.path}" />
         </exec>
     </target>
 
     <target name="phpdoc" description="Generate API documentation using PHPDocumentor">
         <exec executable="phpdoc">
-            <arg line="-d ${source} -t ${basedir}/build/api" />
+            <arg line="-d ${source.path} -t ${basedir}/build/api" />
         </exec>
     </target>
 
     <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
         <exec executable="phpcb">
             <arg line="--log ${basedir}/build/logs/ " />
-            <arg line="--source ${source} " />
+            <arg line="--src ${source.path} " />
             <arg line="--output ${basedir}/build/code-browser " />
         </exec>
     </target>
 
-    <target name="copy-dev" description="Copy to development">
-         <echo message="cleanup ${project.dev.path}"/>
+    <target name="deploy" description="Deploy main job">
+        <property name="application-env" value="development" />
+        <property file="${application-env}.properties"/>
+        <echo message="Deploying ${application-env}"/>
+        <echo message="Home: ${deploy.home}"/>
+
+        <echo message="cleanup ${deploy.path}"/>
          <!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
-         <exec executable="sudo">
-            <arg line="rm -rf ${project.dev.path}"/>
-         </exec>
+        <exec executable="sudo">
+            <arg line="rm -rf ${deploy.path}"/>
+        </exec>
 
          <!--sudo cp -R /var/lib/hudson/jobs/LexsignExtensions_Development/workspace/src /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
-         <echo message="copy files to ${project.dev.path}"/>
-         <exec executable="sudo">
-            <arg line="cp -rv ${source} ${project.dev.path}"/>
-         </exec>
+        <echo message="copy files to ${deploy.path}"/>
+        <exec executable="sudo">
+            <arg line="cp -rv ${source.path} ${deploy.path}"/>
+        </exec>
 
          <!--sudo chown -R 33:33 /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
-         <echo message="chown 33:33 for ${project.dev.path}"/>
-         <exec executable="sudo">
-            <arg line="chown -Rv 33:33 ${project.dev.path}"/>
-         </exec>
+        <echo message="chown 33:33 for ${deploy.path}"/>
+        <exec executable="sudo">
+            <arg line="chown -Rv 33:33 ${deploy.path}"/>
+        </exec>
+
+        <antcall target="create-vhosts" />
+    </target>
+
+    <target name="create-vhosts" description="Creates vhost file">
+        <property name="application-env" value="development" />
+        <property file="${application-env}.properties"/>
+        <delete file="${basedir}/conf/vhosts.conf"/>
+        <copy file="${basedir}/conf/vhosts.${application-env}.tpl" tofile="${basedir}/conf/vhosts.conf">
+            <filterchain>
+                <expandproperties />
+            </filterchain>
+        </copy>
     </target>
 
     <target name="info" description="Info">
-         <echo message="BUILD_NUMBER: ${env.BUILD_NUMBER}"/>
-         <echo message="JOB_NAME: ${env.JOB_NAME}"/>
-         <echo message="BUILD_TAG: ${env.BUILD_TAG}"/>
-         <echo message="EXECUTOR_NUMBER: ${env.EXECUTOR_NUMBER}"/>
-         <echo message="JAVA_HOME: ${env.JAVA_HOME}"/>
-         <echo message="WORKSPACE: ${env.WORKSPACE}"/>
-         <echo message="HUDSON_URL: ${env.HUDSON_URL}"/>
-         <echo message="BUILD_URL: ${env.BUILD_URL}"/>
-         <echo message="JOB_URL: ${env.JOB_URL}"/>
-         <echo message="SVN_REVISION: ${env.SVN_REVISION}"/>
-         <echo message="CVS_BRANCH: ${env.CVS_BRANCH}"/>
+        <property name="application-env" value="development" />
+        <property file="${application-env}.properties"/>
+
+        <echo message="APPLICATION-ENV: ${application-env}"/>
+        <echo message="HOME ${deploy.home}"/>
+        <echo message="BUILD_NUMBER: ${env.BUILD_NUMBER}"/>
+        <echo message="JOB_NAME: ${env.JOB_NAME}"/>
+        <echo message="BUILD_TAG: ${env.BUILD_TAG}"/>
+        <echo message="EXECUTOR_NUMBER: ${env.EXECUTOR_NUMBER}"/>
+        <echo message="JAVA_HOME: ${env.JAVA_HOME}"/>
+        <echo message="WORKSPACE: ${env.WORKSPACE}"/>
+        <echo message="HUDSON_URL: ${env.HUDSON_URL}"/>
+        <echo message="BUILD_URL: ${env.BUILD_URL}"/>
+        <echo message="JOB_URL: ${env.JOB_URL}"/>
+        <echo message="SVN_REVISION: ${env.SVN_REVISION}"/>
+        <echo message="CVS_BRANCH: ${env.CVS_BRANCH}"/>
     </target>
 
     <target name="build" depends="">
@@ -141,5 +163,12 @@
 <!--        <antcall target="phploc"/>-->
 <!--        <antcall target="phpunit"/>-->
 <!--        <antcall target="phpcb"/>-->
+    </target>
+
+    <target name="test">
+        <property name="application-env" value="development" />
+        <property file="${application-env}.properties" prefix="env"/>
+        <echo message="Deploying ${application-env}"/>
+        <echo message="Home ${deploy.home}"/>
     </target>
 </project>

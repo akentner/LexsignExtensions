@@ -59,6 +59,7 @@
     </target>
 
     <target name="phpcpd" description="Generate pmd-cpd.xml using PHPCPD">
+        <echo message="phpcpd --log-pmd ${basedir}/build/logs/pmd-cpd.xml --exclude ${build.exclude.path} ${source.path}" />
         <exec executable="phpcpd" output="${basedir}/build/logs/phpcpd.log">
             <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml" />
             <arg line="--exclude ${build.exclude.path}" />
@@ -79,7 +80,7 @@
             <arg line="--report=checkstyle "/>
             <arg line="--report-file=${basedir}/build/logs/checkstyle.xml "/>
             <arg line="--standard=build/phpcs.xml "/>
-            <arg line="--ignore ${build.exclude.path} "/>
+            <arg line="--ignore=${build.exclude.path} "/>
             <arg line="${source.path}" />
         </exec>
     </target>
@@ -93,7 +94,7 @@
     <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
         <exec executable="phpcb">
             <arg line="--log ${basedir}/build/logs/ " />
-            <arg line="--src ${source.path} " />
+            <arg line="--source ${source.path} " />
             <arg line="--output ${basedir}/build/code-browser " />
         </exec>
     </target>

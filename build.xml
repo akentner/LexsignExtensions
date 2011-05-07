@@ -38,7 +38,6 @@
     </target>
 
     <target name="pdepend" description="Generate jdepend.xml and software metrics charts using PHP_Depend">
-        <echo message="pdepend --jdepend-xml=${basedir}/build/logs/jdepend.xml --jdepend-chart=${basedir}/build/pdepend/dependencies.svg --overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg  ${source.path}" />
         <exec executable="pdepend">
             <arg line="--jdepend-xml=${basedir}/build/logs/jdepend.xml"/>
             <arg line="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg"/>
@@ -48,7 +47,6 @@
     </target>
 
     <target name="phpmd" description="Generate pmd.xml using PHPMD">
-        <echo message="phpmd ${source.path} xml build/phpmd.xml --exclude ${build.exclude.path} --reportfile ${basedir}/build/logs/pmd.xml" />
         <exec executable="phpmd" output="${basedir}/build/logs/phpmd.log">
             <arg line="${source.path}" />
             <arg line="xml" />
@@ -59,7 +57,6 @@
     </target>
 
     <target name="phpcpd" description="Generate pmd-cpd.xml using PHPCPD">
-        <echo message="phpcpd --log-pmd ${basedir}/build/logs/pmd-cpd.xml --exclude ${build.exclude.path} ${source.path}" />
         <exec executable="phpcpd" output="${basedir}/build/logs/phpcpd.log">
             <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml" />
             <arg line="--exclude ${build.exclude.path}" />
@@ -102,8 +99,17 @@
     <target name="deploy" description="Deploy main job">
         <property name="application-env" value="development" />
         <property file="${application-env}.properties"/>
-        <echo message="Deploying ${application-env}"/>
-        <echo message="Home: ${deploy.home}"/>
+
+        <antcall target="deploy-copy" />
+        <antcall target="deploy-vhosts" />
+        <antcall target="apache-reload" />
+    </target>
+
+    <target name="deploy-copy" description="Deploy main job">
+        <echo message="Copy files"/>
+
+        <property name="application-env" value="development" />
+        <property file="${application-env}.properties"/>
 
         <echo message="cleanup ${deploy.path}"/>
         <exec executable="sudo">
@@ -119,10 +125,6 @@
         <exec executable="sudo">
             <arg line="chown -R 33:33 ${deploy.path}"/>
         </exec>
-
-        <antcall target="deploy-vhosts" />
-        <antcall target="apache-reload" />
-
     </target>
 
     <target name="deploy-vhosts" description="Creates vhost file">

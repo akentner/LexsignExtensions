@@ -168,10 +168,4 @@
 <!--        <antcall target="phpcb"/>-->
     </target>
 
-    <target name="test">
-        <property name="application-env" value="development" />
-        <property file="${application-env}.properties" prefix="env"/>
-        <echo message="Deploying ${application-env}"/>
-        <echo message="Home ${deploy.home}"/>
-    </target>
 </project>

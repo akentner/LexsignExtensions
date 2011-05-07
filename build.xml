@@ -47,7 +47,7 @@
     </target>
 
     <target name="phpmd" description="Generate pmd.xml using PHPMD">
-        <exec executable="phpmd" output="${build}/build/logs/phpmd.log">
+        <exec executable="phpmd" output="${basedir}/build/logs/phpmd.log">
             <arg line="${source.path}" />
             <arg line="xml" />
             <arg line="build/phpmd.xml" />
@@ -57,7 +57,7 @@
     </target>
 
     <target name="phpcpd" description="Generate pmd-cpd.xml using PHPCPD">
-        <exec executable="phpcpd" output="${build}/build/logs/phpcpd.log">
+        <exec executable="phpcpd" output="${basedir}/build/logs/phpcpd.log">
             <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml" />
             <arg line="--exclude ${build.exclude.path}" />
             <arg line="${source.path}" />
@@ -73,7 +73,7 @@
     </target>
 
     <target name="phpcs" description="Generate checkstyle.xml using PHP_CodeSniffer">
-        <exec executable="phpcs" output="${build}/build/logs/phpcs.log">
+        <exec executable="phpcs" output="${basedir}/build/logs/phpcs.log">
             <arg line="--report=checkstyle "/>
             <arg line="--report-file=${basedir}/build/logs/checkstyle.xml "/>
             <arg line="--standard=build/phpcs.xml "/>
@@ -83,7 +83,7 @@
     </target>
 
     <target name="phpdoc" description="Generate API documentation using PHPDocumentor">
-        <exec executable="phpdoc" output="${build}/build/logs/phpdoc.log">
+        <exec executable="phpdoc" output="${basedir}/build/logs/phpdoc.log">
             <arg line="-d ${source.path} -t ${basedir}/build/api" />
         </exec>
     </target>

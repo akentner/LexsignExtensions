@@ -103,31 +103,34 @@
         <echo message="Home: ${deploy.home}"/>
 
         <echo message="cleanup ${deploy.path}"/>
-         <!--sudo rm -rf /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
         <exec executable="sudo">
             <arg line="rm -rf ${deploy.path}"/>
         </exec>
 
-         <!--sudo cp -R /var/lib/hudson/jobs/LexsignExtensions_Development/workspace/src /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
         <echo message="copy files to ${deploy.path}"/>
         <exec executable="sudo">
-            <arg line="cp -rv ${source.path} ${deploy.path}"/>
+            <arg line="cp -r ${source.path} ${deploy.path}"/>
         </exec>
 
-         <!--sudo chown -R 33:33 /var/www/vhosts/lexsign.de/subdomains/dev/httpdocs-->
         <echo message="chown 33:33 for ${deploy.path}"/>
         <exec executable="sudo">
-            <arg line="chown -Rv 33:33 ${deploy.path}"/>
+            <arg line="chown -R 33:33 ${deploy.path}"/>
         </exec>
 
-        <antcall target="create-vhosts" />
+        <echo message="Deploy vhosts to ${deploy.home}/conf"/>
+        <antcall target="deploy-vhosts" />
+
+        <echo message="Reload Apache Config"/>
+        <exec executable="/etc/init.d/apache">
+            <arg line="reload"/>
+        </exec>
     </target>
 
-    <target name="create-vhosts" description="Creates vhost file">
+    <target name="deploy-vhosts" description="Creates vhost file">
         <property name="application-env" value="development" />
         <property file="${application-env}.properties"/>
-        <delete file="${basedir}/conf/vhosts.conf"/>
-        <copy file="${basedir}/conf/vhosts.${application-env}.tpl" tofile="${basedir}/conf/vhosts.conf">
+        <delete file="${deploy.home}/conf/vhosts.conf"/>
+        <copy file="${basedir}/conf/vhosts.${application-env}.tpl" tofile="${deploy.home}/conf/vhosts.conf">
             <filterchain>
                 <expandproperties />
             </filterchain>

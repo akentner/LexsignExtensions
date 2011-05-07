@@ -166,12 +166,12 @@
         <antcall target="clean"/>
         <antcall target="pdepend"/>
         <antcall target="phpmd"/>
-<!--        <antcall target="phpcpd"/>-->
+        <antcall target="phpcpd"/>
         <antcall target="phpcs"/>
-<!--        <antcall target="phpdoc"/>-->
-<!--        <antcall target="phploc"/>-->
-<!--        <antcall target="phpunit"/>-->
-<!--        <antcall target="phpcb"/>-->
+        <antcall target="phpdoc"/>
+        <antcall target="phploc"/>
+        <antcall target="phpunit"/>
+        <antcall target="phpcb"/>
     </target>
 
 </project>

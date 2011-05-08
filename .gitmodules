@@ -1,0 +1,6 @@
+[submodule "externals/Shanty-Mongo"]
+	path = externals/Shanty-Mongo
+	url = https://github.com/coen-hyde/Shanty-Mongo.git
+[submodule "externals/ZF1-Doctrine2-ServiceLayer"]
+	path = externals/ZF1-Doctrine2-ServiceLayer
+	url = https://github.com/guilhermeblanco/ZF1-Doctrine2-ServiceLayer.git

@@ -10,6 +10,9 @@
         AllowOverride All
         Order allow,deny
         Allow from all
+        <IfModule mod_php5.c>
+            php_value include_path ".:/usr/share/php:/var/www/lib/ZendFramework/current/library"
+        </IfModule>
     </Directory>
 
     ErrorLog /var/log/apache2/error.log

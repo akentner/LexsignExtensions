@@ -152,6 +152,12 @@
         </exec>
     </target>
 
+    <target name="git-pull">
+        <exec executable="git">
+            <arg line="pull origin HEAD"/>
+        </exec>
+    </target>
+
     <target name="info" description="Info">
         <property name="application-env" value="development" />
         <property file="${application-env}.properties"/>

@@ -3,7 +3,7 @@
 //@TODO Autoloading with namespaces
 //namespace LexsignExtensions\Application\Resource;
 
-class LexsignExtensions_Application_Resource_ModuleLoader
+class LexsignExtensions_Application_Resource_Moduleloader
     extends \Zend_Application_Resource_ResourceAbstract
 {
 

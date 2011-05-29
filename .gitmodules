@@ -1,21 +1,24 @@
-[submodule "externals/Shanty-Mongo"]
-	path = externals/Shanty-Mongo
-	url = https://github.com/coen-hyde/Shanty-Mongo.git
-[submodule "externals/ZF1-Doctrine2-ServiceLayer"]
-	path = externals/ZF1-Doctrine2-ServiceLayer
-	url = https://github.com/guilhermeblanco/ZF1-Doctrine2-ServiceLayer.git
-[submodule "externals/doctrine2"]
-	path = externals/doctrine2
+[submodule "externals/doctrine/doctrine2"]
+	path = externals/doctrine/doctrine2
 	url = https://github.com/doctrine/doctrine2.git
-[submodule "externals/doctrine-dbal"]
-	path = externals/doctrine-dbal
-	url = https://github.com/doctrine/dbal.git
-[submodule "externals/doctrine-common"]
-	path = externals/doctrine-common
+[submodule "externals/doctrine/common"]
+	path = externals/doctrine/common
 	url = https://github.com/doctrine/common.git
-[submodule "externals/Symfony/Component/Yaml"]
-	path = externals/Symfony/Component/Yaml
+[submodule "externals/coen-hyde/Shanty-Mongo"]
+	path = externals/coen-hyde/Shanty-Mongo
+	url = https://github.com/coen-hyde/Shanty-Mongo.git
+[submodule "externals/guilhermeblanco/ZF1-Doctrine2-ServiceLayer"]
+	path = externals/guilhermeblanco/ZF1-Doctrine2-ServiceLayer
+	url = https://github.com/doctrine/common.git
+[submodule "externals/doctrine/dbal"]
+	path = externals/doctrine/dbal
+	url = https://github.com/doctrine/dbal.git
+[submodule "externals/symfony/Yaml"]
+	path = externals/symfony/Yaml
 	url = https://github.com/symfony/Yaml.git
-[submodule "externals/Symfony/Component/Console"]
-	path = externals/Symfony/Component/Console
+[submodule "externals/symfony/Console"]
+	path = externals/symfony/Console
 	url = https://github.com/symfony/Console.git
+[submodule "externals/guilhermeblanco/ZendFramework1-Doctrine2"]
+	path = externals/guilhermeblanco/ZendFramework1-Doctrine2
+	url = https://github.com/guilhermeblanco/ZendFramework1-Doctrine2.git

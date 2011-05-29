@@ -2,6 +2,10 @@
 
 <project name="LexsignExtensions" default="build" basedir=".">
 
+<!--    <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>-->
+
+    <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+
     <property environment="env" />
     <property file="build.properties"/>
 
@@ -159,6 +163,49 @@
         <exec executable="git">
             <arg line="pull origin HEAD"/>
         </exec>
+    </target>
+
+    <target name="git-submodule-update">
+        <exec executable="git">
+            <arg line="submodule update"/>
+        </exec>
+    </target>
+
+    <target name="update-externals" depends="git-submodule-update">
+        <property name="externals.file" value="externals.conf"/>
+        <loadfile property="externals" srcfile="${externals.file}" />
+        <for delimiter="${line.separator}" param="line" list="${externals}">
+            <sequential>
+                <propertyregex
+                    property="externals.src"
+                    override="true"
+                    input="@{line}"
+                    regexp="(^.*);(.*$)"
+                    select="\1"
+                    casesensitive="false"
+                />
+                <propertyregex
+                    property="externals.dest"
+                    override="true"
+                    input="@{line}"
+                    regexp="(^.*);(.*$)"
+                    select="\2"
+                    casesensitive="false"
+                />
+                <echo message="${externals.src}"/>
+                <echo message="${externals.dest}"/>
+
+                <delete failonerror="false">
+                    <fileset dir="${externals.dest}" includes="**/*"/>
+                </delete>
+                <mkdir dir="${externals.dest}" />
+                <copy todir="${externals.dest}">
+                    <fileset dir="${externals.src}">
+                        <exclude name="**/.git*"/>
+                        </fileset>
+                </copy>
+            </sequential>
+        </for>
     </target>
 
     <target name="info" description="Info">

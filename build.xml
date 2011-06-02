@@ -2,8 +2,6 @@
 
 <project name="LexsignExtensions" default="build" basedir=".">
 
-<!--    <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>-->
-
     <taskdef resource="net/sf/antcontrib/antlib.xml"/>
 
     <property environment="env" />
@@ -159,19 +157,19 @@
         </exec>
     </target>
 
-    <target name="git-pull">
+    <target name="git-pull" description="git pull from origin">
         <exec executable="git">
             <arg line="pull origin HEAD"/>
         </exec>
     </target>
 
-    <target name="git-submodule-update">
+    <target name="git-submodule-update" description="git submodule update">
         <exec executable="git">
             <arg line="submodule update"/>
         </exec>
     </target>
 
-    <target name="update-externals" depends="git-submodule-update">
+    <target name="update-externals" depends="git-submodule-update" description="update externals, copy files to library/*">
         <property name="externals.file" value="externals.conf"/>
         <loadfile property="externals" srcfile="${externals.file}" />
         <for delimiter="${line.separator}" param="line" list="${externals}">

@@ -1,0 +1,33 @@
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Log::init (START)
+2011-06-01T23:12:47+02:00 INIT (8):   -- init Log: stream as Stream
+2011-06-01T23:12:47+02:00 INIT (8):   -- init Log: firebug as Firebug
+2011-06-01T23:12:47+02:00 INIT (8):   -- init Log: debugStream as Stream
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Log::init (END)
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Autoloader::init (START)
+2011-06-01T23:12:47+02:00 INIT (8):   -- Namespace: Application
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Autoloader::init (END)
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Moduleloader::init (START)
+2011-06-01T23:12:47+02:00 INIT (8):   -- init Module: Default
+2011-06-01T23:12:47+02:00 INIT (8):   -- init Module: Cms
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Moduleloader::init (END)
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Resourceinjector::init
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Doctrine::init (START)
+2011-06-01T23:12:47+02:00 INIT (8):   -- Connection:
+2011-06-01T23:12:47+02:00 INIT (8):     -- driver: pdo_mysql
+2011-06-01T23:12:47+02:00 INIT (8):     -- host: localhost
+2011-06-01T23:12:47+02:00 INIT (8):     -- dbname: multitool
+2011-06-01T23:12:47+02:00 INIT (8):     -- user: root
+2011-06-01T23:12:47+02:00 INIT (8):     -- password: password
+2011-06-01T23:12:47+02:00 INIT (8):   -- Configuration:
+2011-06-01T23:12:47+02:00 INIT (8):     -- metadata.driver: AnnotationDriver
+2011-06-01T23:12:47+02:00 INIT (8):     -- proxy.path: C:\Program Files (x86)\Zend\Apache2\htdocs\Multitool\src\application . /../var/doctrine/proxies
+2011-06-01T23:12:47+02:00 INIT (8):     -- proxy.namespace: Application\Proxies
+2011-06-01T23:12:47+02:00 INIT (8):     -- metadata.cache: ArrayCache
+2011-06-01T23:12:47+02:00 INIT (8):     -- proxy.autoGenerateClasses: 1
+2011-06-01T23:12:47+02:00 INIT (8):     -- query.cache: ArrayCache
+2011-06-01T23:12:47+02:00 INIT (8):   -- EntityManager successfully created
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Application_Resource_Doctrine::init (END)
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Controller_Action_Helper_ResourceInjector::preDispatch (START)
+2011-06-01T23:12:47+02:00 INIT (8):   -- injected plugin resource "$_log" as Zend_Log
+2011-06-01T23:12:47+02:00 INIT (8): LexsignExtensions_Controller_Action_Helper_ResourceInjector::preDispatch (END)
+2011-06-01T23:12:47+02:00 INIT (8): IndexController::indexAction

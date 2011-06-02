@@ -22,3 +22,6 @@
 [submodule "externals/guilhermeblanco/ZendFramework1-Doctrine2"]
 	path = externals/guilhermeblanco/ZendFramework1-Doctrine2
 	url = https://github.com/guilhermeblanco/ZendFramework1-Doctrine2.git
+[submodule "externals/doctrine/mongo-odm"]
+	path = externals/doctrine/mongo-odm
+	url = https://github.com/doctrine/mongodb-odm.git

@@ -22,19 +22,20 @@ class LexsignExtensions_Application_Resource_Autoloader extends \Zend_Applicatio
      */
     public function init()
     {
-        $this->getBootstrap()->bootstrap('Log');
+        $bootstrap = $this->getBootstrap();
+        $bootstrap->bootstrap('Log');
 
-        $log = Zend_Registry::get('log');
-        $log->log(__METHOD__ . ' (START)', 8);
+        /* @var $log Zend_Log */
+        $log = $bootstrap->getResource('Log');
 
-        $autoloader = new Zend_Application_Module_Autoloader(
-                array(
-                    'namespace' => 'Application',
-                    'basePath' => dirname(__FILE__)
-                )
-        );
-        $log->log('  -- Namespace: ' . $autoloader->getNamespace(), 8);
-        $log->log(__METHOD__ . ' (END)', 8);
+        $log->log('Autoloader', 8);
+
+        $autoloader = Zend_Loader_Autoloader::getInstance();
+
+        foreach ($autoloader->getRegisteredNamespaces() as $namespace) {
+            $log->log('  -- Namespace: ' . $namespace, 8);
+        }
+        $log->log('', 8);
         return $autoloader;
     }
 

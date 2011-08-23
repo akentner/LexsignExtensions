@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage
+END
+DynamicTableEntity.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/DynamicTableEntity.php
+END
+QueueMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/QueueMessage.php
+END
+BatchStorageAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/BatchStorageAbstract.php
+END
+BlobInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/BlobInstance.php
+END
+PageRegionInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/PageRegionInstance.php
+END
+QueueInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/QueueInstance.php
+END
+TableEntityQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/TableEntityQuery.php
+END
+SignedIdentifier.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/SignedIdentifier.php
+END
+TableInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/TableInstance.php
+END
+LeaseInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/LeaseInstance.php
+END
+Blob.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/Blob.php
+END
+Batch.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/Batch.php
+END
+BlobContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/BlobContainer.php
+END
+Queue.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/Queue.php
+END
+TableEntity.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/TableEntity.php
+END
+StorageEntityAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/StorageEntityAbstract.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Zend/Service/WindowsAzure/Storage/Table.php
+END

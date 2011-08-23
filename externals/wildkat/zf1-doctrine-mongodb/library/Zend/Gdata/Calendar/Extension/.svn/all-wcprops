@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension
+END
+AccessLevel.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/AccessLevel.php
+END
+Timezone.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/Timezone.php
+END
+Hidden.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/Hidden.php
+END
+Link.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/Link.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/Color.php
+END
+QuickAdd.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/QuickAdd.php
+END
+SendEventNotifications.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/SendEventNotifications.php
+END
+Selected.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/Selected.php
+END
+WebContent.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Calendar/Extension/WebContent.php
+END

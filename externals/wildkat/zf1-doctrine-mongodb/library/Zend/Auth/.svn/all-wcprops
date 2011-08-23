@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/26/trunk/library/Zend/Auth
+END
+Result.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/trunk/library/Zend/Auth/Result.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/library/Zend/Auth/Exception.php
+END

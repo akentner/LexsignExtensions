@@ -1,0 +1,123 @@
+10
+
+dir
+30
+http://zf1-doctrine-mongodb.googlecode.com/svn/trunk/library/Zend/Feed/Reader/Extension
+http://zf1-doctrine-mongodb.googlecode.com/svn
+
+
+
+2011-03-20T12:30:57.832650Z
+26
+kevin@wildk.at
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8e9e5306-8813-309d-d66d-c49b37b55514
+
+Atom
+dir
+
+Syndication
+dir
+
+DublinCore
+dir
+
+Thread
+dir
+
+Slash
+dir
+
+Content
+dir
+
+EntryAbstract.php
+file
+
+
+
+
+2011-06-02T20:16:13.994081Z
+4a8e479cd22414f695559309daf66406
+2011-03-20T12:30:57.832650Z
+26
+kevin@wildk.at
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4621
+
+Podcast
+dir
+
+FeedAbstract.php
+file
+
+
+
+
+2011-06-02T20:16:13.994081Z
+709526b0a37fe7d9b59fb86ddf8e4080
+2011-03-20T12:30:57.832650Z
+26
+kevin@wildk.at
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4032
+
+WellFormedWeb
+dir
+
+CreativeCommons
+dir
+

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/30/trunk/library/Doctrine/ODM/MongoDB
+END
+DocumentManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/DocumentManager.php
+END
+LoggableCursor.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/LoggableCursor.php
+END
+SchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/SchemaManager.php
+END
+PersistentCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/PersistentCollection.php
+END
+LockMode.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/LockMode.php
+END
+Cursor.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Cursor.php
+END
+DocumentRepository.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/DocumentRepository.php
+END
+Events.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Events.php
+END
+MongoDBException.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/MongoDBException.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/30/trunk/library/Doctrine/ODM/MongoDB/Version.php
+END
+UnitOfWork.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/UnitOfWork.php
+END
+Configuration.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Configuration.php
+END
+LockException.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/LockException.php
+END

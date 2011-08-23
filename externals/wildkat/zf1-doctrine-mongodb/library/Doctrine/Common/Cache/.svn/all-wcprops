@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Cache
+END
+XcacheCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Cache/XcacheCache.php
+END
+ArrayCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Cache/ArrayCache.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Cache/Cache.php
+END
+MemcacheCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Cache/MemcacheCache.php
+END
+AbstractCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Cache/AbstractCache.php
+END
+ApcCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Cache/ApcCache.php
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search
+END
+QueryHit.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/QueryHit.php
+END
+QueryParserException.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/QueryParserException.php
+END
+QueryParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/QueryParser.php
+END
+QueryLexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/QueryLexer.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/Query.php
+END
+QueryToken.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/QueryToken.php
+END
+Similarity.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/Similarity.php
+END
+BooleanExpressionRecognizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/BooleanExpressionRecognizer.php
+END
+QueryEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/QueryEntry.php
+END
+QueryParserContext.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/QueryParserContext.php
+END
+Weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Zend/Search/Lucene/Search/Weight.php
+END

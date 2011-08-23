@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Query
+END
+Expr.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Query/Expr.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Query/Query.php
+END
+Builder.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Query/Builder.php
+END

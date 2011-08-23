@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/26/trunk/library/Zend/Date
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/library/Zend/Date/Exception.php
+END
+Cities.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/trunk/library/Zend/Date/Cities.php
+END
+DateObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/26/trunk/library/Zend/Date/DateObject.php
+END

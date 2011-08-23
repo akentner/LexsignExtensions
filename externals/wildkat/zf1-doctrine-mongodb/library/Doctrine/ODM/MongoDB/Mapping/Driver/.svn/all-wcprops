@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver
+END
+Driver.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/Driver.php
+END
+XmlDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/XmlDriver.php
+END
+DriverChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/DriverChain.php
+END
+YamlDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/YamlDriver.php
+END
+AbstractFileDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/AbstractFileDriver.php
+END
+PHPDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/PHPDriver.php
+END
+DoctrineAnnotations.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/DoctrineAnnotations.php
+END
+AnnotationDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Driver/AnnotationDriver.php
+END

@@ -25,3 +25,9 @@
 [submodule "externals/doctrine/mongo-odm"]
 	path = externals/doctrine/mongo-odm
 	url = https://github.com/doctrine/mongodb-odm.git
+[submodule "externals/doctrine/mongodb"]
+	path = externals/doctrine/mongodb
+	url = https://github.com/doctrine/mongodb.git
+[submodule "externals/fabpot/dependency-injection"]
+	path = externals/fabpot/dependency-injection
+	url = https://github.com/fabpot/dependency-injection.git

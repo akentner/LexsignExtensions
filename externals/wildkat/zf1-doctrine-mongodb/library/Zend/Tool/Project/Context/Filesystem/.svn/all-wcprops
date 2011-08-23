@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Filesystem
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Filesystem/File.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Filesystem/Abstract.php
+END
+Directory.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Filesystem/Directory.php
+END

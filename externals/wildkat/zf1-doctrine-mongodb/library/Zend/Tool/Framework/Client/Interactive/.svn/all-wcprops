@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Framework/Client/Interactive
+END
+InputHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Framework/Client/Interactive/InputHandler.php
+END
+InputResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Framework/Client/Interactive/InputResponse.php
+END
+InputInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Framework/Client/Interactive/InputInterface.php
+END
+OutputInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Framework/Client/Interactive/OutputInterface.php
+END
+InputRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Framework/Client/Interactive/InputRequest.php
+END

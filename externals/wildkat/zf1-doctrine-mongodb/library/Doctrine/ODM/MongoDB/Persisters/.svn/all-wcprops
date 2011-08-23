@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Persisters
+END
+PersistenceBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Persisters/PersistenceBuilder.php
+END
+CollectionPersister.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Persisters/CollectionPersister.php
+END
+DocumentPersister.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Persisters/DocumentPersister.php
+END

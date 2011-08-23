@@ -1,0 +1,715 @@
+PHP Version 5.3.2-1ubuntu4.9
+phpDocumentor version 1.4.3
+
+Parsing configuration file phpDocumentor.ini...
+   (found in /usr/share/php/data/PhpDocumentor/)...
+
+done
+Maximum memory usage setting disabled by php.ini...
+using tokenizer Parser
+Hidden /var/www/vhosts/LexsignExtension/httpdocs/src/public/.htaccess Ignored
+Hidden /var/www/vhosts/LexsignExtension/httpdocs/src/.zfproject.xml Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Bisna/Application/Resource/Doctrine.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Bisna/Application/Exception/NameNotFoundException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Bisna/Application/Container/DoctrineContainer.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Iterator/Cursor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Iterator/Default.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Exception.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/DocumentSet.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Collection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Validate/StubTrue.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Validate/Array.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Validate/Class.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Connection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Connection/Stack.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Connection/Group.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Mongo/Document.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Shanty/Paginator/Adapter/Mongo.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/InputDefinition.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/StringInput.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/Input.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/ArgvInput.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/ArrayInput.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/InputInterface.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/InputArgument.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Input/InputOption.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Output/ConsoleOutput.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Output/Output.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Output/NullOutput.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Output/OutputInterface.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Output/StreamOutput.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Formatter/OutputFormatterInterface.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Formatter/OutputFormatter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Formatter/OutputFormatterStyleInterface.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Formatter/OutputFormatterStyle.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Application.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/LICENSE Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Helper/DialogHelper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Helper/Helper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Helper/HelperInterface.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Helper/HelperSet.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Helper/FormatterHelper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Tester/CommandTester.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Tester/ApplicationTester.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Command/ListCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Command/HelpCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Command/Command.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Console/Shell.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/Exception.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/Inline.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/LICENSE Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/ParserException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/Escaper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/Yaml.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/Parser.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/Unescaper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Symfony/Component/Yaml/Dumper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/FloatType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/TextType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/VarDateTimeType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/Type.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/TimeType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/DateType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/DateTimeTzType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/IntegerType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/SmallIntType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/DecimalType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/DateTimeType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/ObjectType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/StringType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/BooleanType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/BigIntType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/ArrayType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Types/ConversionException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/README.markdown Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Version.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/LockMode.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOMySql/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOConnection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/Statement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOOracle/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOSqlsrv/Connection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOSqlsrv/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOStatement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/IBMDB2/DB2Statement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/IBMDB2/DB2Exception.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/IBMDB2/DB2Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/IBMDB2/DB2Connection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/Connection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOSqlite/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOPgSql/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/PDOIbm/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/OCI8/OCI8Connection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/OCI8/OCI8Exception.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/OCI8/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Statement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/SQLParserUtils.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/DriverManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/ConnectionException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/AbstractPlatform.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/MsSqlPlatform.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/SQLiteKeywords.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/PostgreSQLKeywords.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/DB2Keywords.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/OracleKeywords.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/KeywordList.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/MySQLKeywords.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/MsSQLKeywords.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/Keywords/ReservedKeywordsValidator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/SqlitePlatform.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/PostgreSqlPlatform.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/DB2Platform.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/MySqlPlatform.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Platforms/OraclePlatform.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/DBALException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Logging/DebugStack.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Logging/EchoSQLLogger.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Logging/SQLLogger.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Portability/Statement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Portability/Connection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Configuration.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Connection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Tools/Console/Helper/ConnectionHelper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Tools/Console/Command/ReservedWordsCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Tools/Console/Command/RunSqlCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Tools/Console/Command/ImportCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Query/Expression/ExpressionBuilder.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Query/Expression/CompositeExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Query/QueryBuilder.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Events.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/OracleSchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Index.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Visitor/Graphviz.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Visitor/Visitor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Visitor/CreateSchemaSqlCollector.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Visitor/DropSchemaSqlCollector.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Table.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/View.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/SqliteSchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/SchemaException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/AbstractAsset.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Constraint.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/TableDiff.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Schema.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/ColumnDiff.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/PostgreSqlSchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/SchemaConfig.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Column.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/MySqlSchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/MsSqlSchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/AbstractSchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Comparator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/ForeignKeyConstraint.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/Sequence.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/SchemaDiff.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Schema/DB2SchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Event/Listeners/OracleSessionInit.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Event/Listeners/MysqlSessionInit.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/DBAL/Event/ConnectionEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Internal/CommitOrderCalculator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Version.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/LoggableCursor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/LockMode.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/DocumentManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Proxy/ProxyException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Proxy/ProxyFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Proxy/Proxy.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataCustomType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/FloatType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/CollectionType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/Type.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/CustomIdType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/DateType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/IntType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataMD5Type.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/StringType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/IdType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/BooleanType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataFuncType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/IncrementType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/KeyType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/HashType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/FileType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataUUIDType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Types/TimestampType.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/DriverChain.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/AbstractFileDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/XmlDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/PHPDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/AnnotationDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/YamlDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Annotations/DoctrineAnnotations.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/ClassMetadataInfo.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/ClassMetadata.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/ClassMetadataFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Id/AbstractIdGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Id/IncrementGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Id/UuidGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Id/AutoGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/UnitOfWork.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/LockException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Hydrator/HydratorFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Hydrator/HydratorException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Hydrator/HydratorInterface.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/DocumentRepository.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/SchemaManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/PersistentCollection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Configuration.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/MetadataFilter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Helper/DocumentManagerHelper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/GenerateRepositoriesCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/GenerateHydratorsCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/ClearCache/MetadataCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/GenerateProxiesCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/QueryCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/GenerateDocumentsCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/Schema/CreateCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/Schema/DropCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/Command/Schema/AbstractCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/DocumentRepositoryGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/DocumentGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/DisconnectedClassMetadataFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Query/Builder.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Query/Expr.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Query/Query.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Events.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Cursor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Event/PreLoadEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Event/OnFlushEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Event/LoadClassMetadataEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Event/PreUpdateEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Event/LifecycleEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/MongoDBException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Persisters/CollectionPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Persisters/DocumentPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Persisters/PersistenceBuilder.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/OptimisticLockException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/PessimisticLockException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/README.markdown Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/CommitOrderCalculator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/ArrayHydrator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/AbstractHydrator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/SimpleObjectHydrator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/ScalarHydrator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/ObjectHydrator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/IterableResult.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/HydrationException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Internal/Hydration/SingleScalarHydrator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Version.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Proxy/ProxyException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Proxy/ProxyFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Proxy/Proxy.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/TransactionRequiredException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/ORMException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/DriverChain.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/AbstractFileDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/DatabaseDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/XmlDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/PHPDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/AnnotationDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/DoctrineAnnotations.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/Driver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/YamlDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/StaticPHPDriver.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/MappingException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/ClassMetadataInfo.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/ClassMetadata.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/ClassMetadataFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Id/SequenceGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Id/AbstractIdGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Id/IdentityGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Id/AssignedGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Id/TableGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/UnitOfWork.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/AbstractQuery.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/NonUniqueResultException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/PersistentCollection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Configuration.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/ConvertDoctrine1Schema.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/MetadataFilter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/ConsoleRunner.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Helper/EntityManagerHelper.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/GenerateRepositoriesCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/RunDqlCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/ClearCache/MetadataCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/ClearCache/QueryCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/ClearCache/ResultCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/ConvertDoctrine1SchemaCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/InfoCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/EnsureProductionSettingsCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/GenerateProxiesCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/ConvertMappingCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/ValidateSchemaCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/GenerateEntitiesCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/SchemaTool/CreateCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/SchemaTool/DropCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/SchemaTool/UpdateCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Export/ClassMetadataExporter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Export/Driver/AnnotationExporter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Export/Driver/PhpExporter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Export/Driver/AbstractExporter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Export/Driver/XmlExporter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Export/Driver/YamlExporter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Export/ExportException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/SchemaValidator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/SchemaTool.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/EntityRepositoryGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/ToolsException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/DisconnectedClassMetadataFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/EntityGenerator.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Event/GenerateSchemaTableEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Event/GenerateSchemaEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/ToolEvents.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/QueryBuilder.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/QueryException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/From.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Composite.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Base.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Comparison.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Select.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/OrderBy.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Orx.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Func.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Literal.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Join.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Math.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/Andx.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr/GroupBy.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/TreeWalkerAdapter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/TreeWalkerChain.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Printer.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/ParameterTypeInferer.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Exec/SingleTableDeleteUpdateExecutor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Exec/AbstractSqlExecutor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Exec/MultiTableDeleteExecutor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Exec/MultiTableUpdateExecutor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Exec/SingleSelectExecutor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/TreeWalker.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Expr.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/SqlWalker.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Parser.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/ResultSetMapping.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/ResultSetMappingBuilder.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/Lexer.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/ParserResult.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/SelectStatement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/IdentificationVariableDeclaration.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/AggregateExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/JoinAssociationPathExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/InstanceOfExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ConditionalFactor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/SubselectFromClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ASTException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ArithmeticTerm.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Node.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ComparisonExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/LikeExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/PartialObjectExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ConditionalPrimary.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ArithmeticFactor.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/CollectionMemberExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/TrimFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/CurrentDateFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/SubstringFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/AbsFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/FunctionNode.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/SqrtFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/DateSubFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/SizeFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/LocateFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/LengthFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/ConcatFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/CurrentTimestampFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/LowerFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/CurrentTimeFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/ModFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/DateAddFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/DateDiffFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Functions/UpperFunction.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Subselect.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/BetweenExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/InExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/EmptyCollectionComparisonExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/OrderByItem.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/NullComparisonExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/JoinVariableDeclaration.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/RangeVariableDeclaration.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/PathExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ConditionalExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/UpdateItem.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/UpdateClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/InputParameter.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/HavingClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/SelectExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Literal.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/Join.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/SelectClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/WhereClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/DeleteStatement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ExistsExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/SimpleSelectClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/OrderByClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ArithmeticExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/QuantifiedExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/IndexBy.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/UpdateStatement.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/SimpleSelectExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/ConditionalTerm.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/SimpleArithmeticExpression.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/GroupByClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/FromClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query/AST/DeleteClause.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Events.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Query.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/EntityRepository.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/NativeQuery.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/EntityManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Event/OnFlushEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Event/OnClearEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Event/LoadClassMetadataEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Event/PreUpdateEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Event/LifecycleEventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/EntityNotFoundException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/ManyToManyPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/ElementCollectionPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/JoinedSubclassPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/SingleTablePersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/OneToManyPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/AbstractEntityInheritancePersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/AbstractCollectionPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/UnionSubclassPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Persisters/BasicEntityPersister.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/NoResultException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Collections/Collection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Collections/ArrayCollection.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Version.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/ClassLoader.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Annotations/AnnotationReader.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Annotations/Annotation.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Annotations/AnnotationException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Annotations/Parser.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Annotations/Lexer.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Cache/ZendDataCache.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Cache/ApcCache.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Cache/ArrayCache.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Cache/XcacheCache.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Cache/AbstractCache.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Cache/MemcacheCache.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Cache/Cache.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Persistence/ObjectManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Persistence/Mapping/ClassMetadata.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Persistence/Mapping/ClassMetadataFactory.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Persistence/ObjectRepository.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/PropertyChangedListener.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/EventArgs.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Util/Debug.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Util/Inflector.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/CommonException.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/Lexer.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/EventSubscriber.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/NotifyPropertyChanged.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/Common/EventManager.php Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/application/modules/Cms/controllers/newfile Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/application/modules/Cms/models/newfile Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/application/modules/Cms/views/scripts/newfile Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/application/modules/Cms/views/helpers/newfile Ignored
+File /var/www/vhosts/LexsignExtension/httpdocs/src/application/modules/Cms/views/filters/newfile Ignored
+
+
+Grabbing README/INSTALL/CHANGELOG
+
+done
+
+
+Tutorial/Extended Documentation Parsing Stage
+
+done
+
+
+General Parsing Stage
+
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action/Helper/ResourceInjector.php -- Parsing file
+WARNING in ResourceInjector.php on line 11: no @package tag was used in a DocBlock for file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action/Helper/ResourceInjector.php
+WARNING in ResourceInjector.php on line 13: no @package tag was used in a DocBlock for class LexsignExtensions_Controller_Action_Helper_ResourceInjector
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action.php -- Parsing file
+WARNING in Action.php on line 8: no @package tag was used in a DocBlock for class LexsignExtension_Controller_Action
+WARNING in Action.php on line 12: File "/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php -- Parsing file
+WARNING in ModuleLoader.php on line 7: no @package tag was used in a DocBlock for class LexsignExtensions_Application_Resource_Moduleloader
+WARNING in ModuleLoader.php on line 46: File "/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ResourceInjector.php -- Parsing file
+WARNING in ResourceInjector.php on line 5: no @package tag was used in a DocBlock for class LexsignExtensions_Application_Resource_Resourceinjector
+WARNING in ResourceInjector.php on line 17: File "/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ResourceInjector.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Resourceinjector.php -- Parsing file
+WARNING in Resourceinjector.php on line 5: no @package tag was used in a DocBlock for class LexsignExtensions_Application_Resource_Resourceinjector
+WARNING in Resourceinjector.php on line 17: File "/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Resourceinjector.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php -- Parsing file
+WARNING in Moduleloader.php on line 7: no @package tag was used in a DocBlock for class LexsignExtensions_Application_Resource_Moduleloader
+WARNING in Moduleloader.php on line 46: File "/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Doctrine.php -- Parsing file
+WARNING in Doctrine.php on line 7: no @package tag was used in a DocBlock for class LexsignExtensions_Application_Resource_Doctrine
+WARNING in Doctrine.php on line 167: File "/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Doctrine.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Log.php -- Parsing file
+WARNING in Log.php on line 6: no @package tag was used in a DocBlock for class LexsignExtensions_Application_Resource_Log
+WARNING in Log.php on line 59: File "/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Log.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Autoloader.php -- Parsing file
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/ErrorController.php -- Parsing file
+WARNING in ErrorController.php on line 29: package default is already in category default, will now replace with category Application
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/IndexController.php -- Parsing file
+WARNING in IndexController.php on line 2: no @package tag was used in a DocBlock for class IndexController
+WARNING in IndexController.php on line 20: File "/var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/IndexController.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/Bootstrap.php -- Parsing file
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/configs/application.ini -- File not parsed, not a php file
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/models/Test.php -- Parsing file
+WARNING in Test.php on line 11: Unknown tag "@Entity" used
+WARNING in Test.php on line 11: Unknown tag "@Table(name="test")" used
+WARNING in Test.php on line 11: no @package tag was used in a DocBlock for file /var/www/vhosts/LexsignExtension/httpdocs/src/application/models/Test.php
+WARNING in Test.php on line 11: package default is already in category Application, will now replace with category default
+WARNING in Test.php on line 12: no @package tag was used in a DocBlock for class Application_Model_Test
+WARNING in Test.php on line 17: Unknown tag "@Id" used
+WARNING in Test.php on line 17: Unknown tag "@GeneratedValue(strategy="AUTO")" used
+WARNING in Test.php on line 22: Unknown tag "@Column(type="string")" used
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/views/scripts/index/index.phtml -- Parsing file
+WARNING in index.phtml on line 4: File "/var/www/vhosts/LexsignExtension/httpdocs/src/application/views/scripts/index/index.phtml" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/views/scripts/error/error.phtml -- Parsing file
+WARNING in error.phtml on line 27: File "/var/www/vhosts/LexsignExtension/httpdocs/src/application/views/scripts/error/error.phtml" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/application/layouts/scripts/layout.phtml -- Parsing file
+WARNING in layout.phtml on line 2: File "/var/www/vhosts/LexsignExtension/httpdocs/src/application/layouts/scripts/layout.phtml" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/public/index.php -- Parsing file
+WARNING in index.php on line 10: 
+duplicate define element "APPLICATION_ENV" in file /var/www/vhosts/LexsignExtension/httpdocs/src/public/index.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.
+WARNING in index.php on line 27: File "/var/www/vhosts/LexsignExtension/httpdocs/src/public/index.php" has no page-level DocBlock, use @package in the first DocBlock to create one
+Reading file /var/www/vhosts/LexsignExtension/httpdocs/src/data/logs/init.log -- File not parsed, not a php file
+done
+
+Converting From Abstract Parsed Data
+
+Processing Class Inheritance
+
+
+Processing Root Trees
+
+
+Processing leftover classes (classes that extend root classes not found in the same package)
+Processing LexsignExtensions_Controller_Action_Helper_ResourceInjector in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action/Helper/ResourceInjector.php
+WARNING: Class LexsignExtensions_Controller_Action_Helper_ResourceInjector parent \ not found
+Processing LexsignExtension_Controller_Action in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action.php
+WARNING: Class LexsignExtension_Controller_Action parent Zend_Controller_Action not found
+Processing LexsignExtensions_Application_Resource_Moduleloader in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php
+WARNING: Class LexsignExtensions_Application_Resource_Moduleloader parent \ not found
+Processing LexsignExtensions_Application_Resource_Resourceinjector in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ResourceInjector.php
+WARNING: Class LexsignExtensions_Application_Resource_Resourceinjector parent \ not found
+Processing LexsignExtensions_Application_Resource_Resourceinjector in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Resourceinjector.php
+WARNING: Class LexsignExtensions_Application_Resource_Resourceinjector parent \ not found
+Processing LexsignExtensions_Application_Resource_Moduleloader in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php
+WARNING: Class LexsignExtensions_Application_Resource_Moduleloader parent \ not found
+Processing LexsignExtensions_Application_Resource_Doctrine in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Doctrine.php
+WARNING: Class LexsignExtensions_Application_Resource_Doctrine parent \ not found
+Processing LexsignExtensions_Application_Resource_Log in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Log.php
+WARNING: Class LexsignExtensions_Application_Resource_Log parent Zend_Application_Resource_Log not found
+Processing LexsignExtensions_Application_Resource_Autoloader in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Autoloader.php
+WARNING: Class LexsignExtensions_Application_Resource_Autoloader parent \ not found
+Processing ErrorController in file /var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/ErrorController.php
+WARNING: Class ErrorController parent Zend_Controller_Action not found
+Processing IndexController in file /var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/IndexController.php
+WARNING: Class IndexController parent Zend_Controller_Action not found
+Processing Bootstrap in file /var/www/vhosts/LexsignExtension/httpdocs/src/application/Bootstrap.php
+WARNING: Class Bootstrap parent Zend_Application_Bootstrap_Bootstrap not found
+done processing leftover classes
+WARNING: 
+duplicate class element "LexsignExtensions_Application_Resource_Moduleloader" in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.
+WARNING: 
+duplicate class element "LexsignExtensions_Application_Resource_Resourceinjector" in file /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Resourceinjector.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.
+
+Processing Procedural Page Element Name Conflicts
+
+
+Sorting page elements...done
+Formatting @uses list...done
+
+creating /var/www/vhosts/LexsignExtension/httpdocs/build/api/media
+Creating Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/media
+copying /var/www/vhosts/LexsignExtension/httpdocs/build/api/media/banner.css
+copying /var/www/vhosts/LexsignExtension/httpdocs/build/api/media/stylesheet.css
+Building indexes...done
+
+Sorting Indexes...done
+
+Sorting @todo list...done
+Converting tutorials/extended docs
+Formatting Package Indexes...    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/elementindex_default.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/elementindex_LexsignExtensions.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/elementindex_Configuration.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/elementindex_Default.html
+
+done
+Formatting Index...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/elementindex.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/blank.html
+
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/index.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/packages.html
+done
+
+Formatting Left Quick Index...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/li_default.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/classtrees_default.html
+
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/li_LexsignExtensions.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/classtrees_LexsignExtensions.html
+
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/li_Default.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/classtrees_Default.html
+
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/li_Configuration.html
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/classtrees_Configuration.html
+
+done
+
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action.php Procedural Page Elements... Classes...
+Creating Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/default
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/LexsignExtension_Controller_Action.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Controller---Action.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Autoloader.php Procedural Page Elements... Classes...
+Creating Parent Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/LexsignExtensions
+Creating Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/LexsignExtensions/Application
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/LexsignExtensions/Application/LexsignExtensions_Application_Resource_Autoloader.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/LexsignExtensions/Application/_library---LexsignExtensions---Application---Resource---Autoloader.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/application/Bootstrap.php Procedural Page Elements... Classes...
+Creating Parent Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/Configuration
+Creating Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/Configuration/Bootstrap
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/Configuration/Bootstrap/Bootstrap.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/Configuration/Bootstrap/_application---Bootstrap.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Doctrine.php Procedural Page Elements... Classes...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/LexsignExtensions_Application_Resource_Doctrine.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Application---Resource---Doctrine.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/application/views/scripts/error/error.phtml Procedural Page Elements... Classes... done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_application---views---scripts---error---error.phtml.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/ErrorController.php Procedural Page Elements... Classes...
+Creating Parent Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/Default
+Creating Directory /var/www/vhosts/LexsignExtension/httpdocs/build/api/Default/Controller
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/Default/Controller/ErrorController.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/Default/Controller/_application---controllers---ErrorController.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/public/index.php Procedural Page Elements... Classes... done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_public---index.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/application/views/scripts/index/index.phtml Procedural Page Elements... Classes... done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_application---views---scripts---index---index.phtml.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/IndexController.php Procedural Page Elements... Classes...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/IndexController.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_application---controllers---IndexController.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/application/layouts/scripts/layout.phtml Procedural Page Elements... Classes... done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_application---layouts---scripts---layout.phtml.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Log.php Procedural Page Elements... Classes...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/LexsignExtensions_Application_Resource_Log.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Application---Resource---Log.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php Procedural Page Elements... Classes...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/LexsignExtensions_Application_Resource_Moduleloader.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Application---Resource---ModuleLoader.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php Procedural Page Elements... Classes... done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Application---Resource---Moduleloader.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ResourceInjector.php Procedural Page Elements... Classes...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/LexsignExtensions_Application_Resource_Resourceinjector.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Application---Resource---ResourceInjector.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Resourceinjector.php Procedural Page Elements... Classes... done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Application---Resource---Resourceinjector.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action/Helper/ResourceInjector.php Procedural Page Elements... Classes...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/LexsignExtensions_Controller_Action_Helper_ResourceInjector.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_library---LexsignExtensions---Controller---Action---Helper---ResourceInjector.php.html
+Converting /var/www/vhosts/LexsignExtension/httpdocs/src/application/models/Test.php Procedural Page Elements... Classes...
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/Application_Model_Test.html
+ done
+    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/default/_application---models---Test.php.html
+
+Converting @todo List...done
+
+Converting Error Log...    Writing /var/www/vhosts/LexsignExtension/httpdocs/build/api/errors.html
+
+
+To view errors and warnings, look at /var/www/vhosts/LexsignExtension/httpdocs/build/api/errors.html
+done
+
+Parsing time: 1 seconds
+
+Conversion time: 1 seconds
+
+Total Documentation Time: 2 seconds
+done

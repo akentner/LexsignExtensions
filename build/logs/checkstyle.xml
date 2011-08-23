@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.3.0RC2">
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/application/Bootstrap.php">
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/ErrorController.php">
+  <error line="49" column="13" severity="error" message="Line indented incorrectly; expected 8 spaces, found 12" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="50" column="13" severity="error" message="Line indented incorrectly; expected 8 spaces, found 12" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="51" column="13" severity="error" message="Line indented incorrectly; expected 8 spaces, found 12" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="57" column="13" severity="error" message="Line indented incorrectly; expected 8 spaces, found 12" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/IndexController.php">
+  <error line="2" column="1" severity="error" message="Missing file doc comment" source="PEAR.Commenting.FileComment.Missing"/>
+  <error line="2" column="1" severity="error" message="Missing class doc comment" source="PEAR.Commenting.ClassComment.Missing"/>
+  <error line="5" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="5" column="2" severity="error" message="Line indented incorrectly; expected at least 4 spaces, found 1" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="7" column="1" severity="error" message="Line indented incorrectly; expected at least 4 spaces, found 0" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="8" column="1" severity="error" message="Line indented incorrectly; expected at least 4 spaces, found 0" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="11" column="12" severity="error" message="You must use &quot;/**&quot; style comments for a function comment" source="PEAR.Commenting.FunctionComment.WrongStyle"/>
+  <error line="13" column="15" severity="error" message="Equals sign not aligned with surrounding assignments; expected 7 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+  <error line="17" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="18" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/application/models/Test.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="3" column="1" severity="error" message="There must be exactly one blank line before the tags in file comment" source="PEAR.Commenting.FileComment.SpacingBeforeTags"/>
+  <error line="3" column="1" severity="error" message="Content of the @author tag must be in the form &quot;Display Name &lt;username@example.com&gt;&quot;" source="PEAR.Commenting.FileComment.InvalidAuthors"/>
+  <error line="6" column="1" severity="warning" message="PHP version not specified" source="PEAR.Commenting.FileComment.MissingVersion"/>
+  <error line="6" column="1" severity="error" message="Missing @category tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="6" column="1" severity="error" message="Missing @package tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="6" column="1" severity="error" message="Missing @license tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="6" column="1" severity="error" message="Missing @link tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="9" column="1" severity="error" message="There must be exactly one blank line before the tags in class comments" source="PEAR.Commenting.ClassComment.SpacingBeforeTags"/>
+  <error line="11" column="1" severity="error" message="Missing @category tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @package tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @author tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @license tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @link tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="18" column="13" severity="error" message="Private member variable &quot;id&quot; must be prefixed with an underscore" source="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+  <error line="26" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="29" column="1" severity="error" message="Closing brace indented incorrectly; expected 4 spaces, found 0" source="PEAR.WhiteSpace.ScopeClosingBrace.Indent"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Autoloader.php">
+  <error line="2" column="1" severity="error" message="Missing file doc comment" source="PEAR.Commenting.FileComment.Missing"/>
+  <error line="8" column="1" severity="error" message="The @license tag is in the wrong order; the tag follows @copyright (if used) or @author" source="PEAR.Commenting.ClassComment.WrongTagOrder"/>
+  <error line="8" column="1" severity="error" message="@license tag comment indented incorrectly; expected 4 spaces but found 1" source="PEAR.Commenting.ClassComment.TagIndent"/>
+  <error line="9" column="1" severity="error" message="The @link tag is in the wrong order; the tag follows @version" source="PEAR.Commenting.ClassComment.WrongTagOrder"/>
+  <error line="9" column="1" severity="error" message="@link tag comment indented incorrectly; expected 7 spaces but found 1" source="PEAR.Commenting.ClassComment.TagIndent"/>
+  <error line="10" column="1" severity="error" message="@package tag comment indented incorrectly; expected 4 spaces but found 1" source="PEAR.Commenting.ClassComment.TagIndent"/>
+  <error line="13" column="1" severity="error" message="@author tag comment indented incorrectly; expected 5 spaces but found 1" source="PEAR.Commenting.ClassComment.TagIndent"/>
+  <error line="14" column="1" severity="error" message="@since tag comment indented incorrectly; expected 6 spaces but found 1" source="PEAR.Commenting.ClassComment.TagIndent"/>
+  <error line="15" column="1" severity="error" message="Missing @category tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="21" column="1" severity="error" message="There must be exactly one blank line before the tags in function comment" source="PEAR.Commenting.FunctionComment.SpacingBeforeTags"/>
+  <error line="31" column="1" severity="error" message="Multi-line function call not indented correctly; expected 12 spaces but found 16" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Doctrine.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="2" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a file comment" source="PEAR.Commenting.FileComment.WrongStyle"/>
+  <error line="3" column="1" severity="warning" message="Comment refers to a TODO task &quot;Autoloading with namespaces&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="6" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a class comment" source="PEAR.Commenting.ClassComment.WrongStyle"/>
+  <error line="12" column="1" severity="error" message="There must be exactly one blank line before the tags in function comment" source="PEAR.Commenting.FunctionComment.SpacingBeforeTags"/>
+  <error line="26" column="1" severity="error" message="Multi-line function call not indented correctly; expected 12 spaces but found 16" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+  <error line="37" column="12" severity="error" message="You must use &quot;/**&quot; style comments for a function comment" source="PEAR.Commenting.FunctionComment.WrongStyle"/>
+  <error line="40" column="9" severity="warning" message="Comment refers to a TODO task &quot;get this from a factory, not use the Registry&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="48" column="13" severity="error" message="You must use &quot;/**&quot; style comments for a function comment" source="PEAR.Commenting.FunctionComment.WrongStyle"/>
+  <error line="62" column="16" severity="error" message="Equals sign not aligned with surrounding assignments; expected 4 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+  <error line="71" column="13" severity="error" message="Line indented incorrectly; expected 8 spaces, found 12" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="72" column="17" severity="error" message="Line indented incorrectly; expected 12 spaces, found 16" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="76" column="17" severity="error" message="Line indented incorrectly; expected 12 spaces, found 16" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="84" column="13" severity="error" message="Line indented incorrectly; expected 8 spaces, found 12" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="120" column="9" severity="warning" message="Comment refers to a TODO task &quot;implement SQL Logger&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="125" column="13" severity="error" message="You must use &quot;/**&quot; style comments for a function comment" source="PEAR.Commenting.FunctionComment.WrongStyle"/>
+  <error line="143" column="13" severity="error" message="You must use &quot;/**&quot; style comments for a function comment" source="PEAR.Commenting.FunctionComment.WrongStyle"/>
+  <error line="147" column="14" severity="error" message="Equals sign not aligned with surrounding assignments; expected 8 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+  <error line="149" column="9" severity="error" message="&quot;require_once&quot; is a statement not a function; no parentheses are required" source="PEAR.Files.IncludingFile.BracketsNotRequired"/>
+  <error line="149" column="9" severity="error" message="File is being conditionally included; use &quot;include_once&quot; instead" source="PEAR.Files.IncludingFile.UseIncludeOnce"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Log.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="2" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a file comment" source="PEAR.Commenting.FileComment.WrongStyle"/>
+  <error line="3" column="1" severity="warning" message="Comment refers to a TODO task &quot;Autoloading with namespaces&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="6" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a class comment" source="PEAR.Commenting.ClassComment.WrongStyle"/>
+  <error line="9" column="15" severity="error" message="Protected member variable &quot;_log&quot; must not be prefixed with an underscore" source="PEAR.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="20" column="1" severity="error" message="Closing parenthesis of a multi-line IF statement must be on a new line" source="PEAR.ControlStructures.MultiLineCondition.CloseBracketNewLine"/>
+  <error line="22" column="22" severity="error" message="Equals sign not aligned with surrounding assignments; expected 2 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+  <error line="41" column="1" severity="error" message="Missing @return tag in function comment" source="PEAR.Commenting.FunctionComment.MissingReturn"/>
+  <error line="42" column="15" severity="error" message="Protected method name &quot;LexsignExtensions_Application_Resource_Log::_initDir&quot; must not be prefixed with an underscore" source="PEAR.NamingConventions.ValidFunctionName.PublicUnderscore"/>
+  <error line="52" column="1" severity="error" message="Missing @return tag in function comment" source="PEAR.Commenting.FunctionComment.MissingReturn"/>
+  <error line="53" column="15" severity="error" message="Protected method name &quot;LexsignExtensions_Application_Resource_Log::_logOptions&quot; must not be prefixed with an underscore" source="PEAR.NamingConventions.ValidFunctionName.PublicUnderscore"/>
+  <error line="56" column="26" severity="error" message="Opening parenthesis of a multi-line function call must be the last content on the line" source="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
+  <error line="57" column="1" severity="error" message="Multi-line function call not indented correctly; expected 12 spaces but found 16" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+  <error line="57" column="41" severity="error" message="Closing parenthesis of a multi-line function call must be on a line by itself" source="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php">
+  <error line="2" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a file comment" source="PEAR.Commenting.FileComment.WrongStyle"/>
+  <error line="3" column="1" severity="warning" message="Comment refers to a TODO task &quot;Autoloading with namespaces&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="6" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a class comment" source="PEAR.Commenting.ClassComment.WrongStyle"/>
+  <error line="10" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="22" column="13" severity="error" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+  <error line="34" column="1" severity="error" message="Multi-line function call not indented correctly; expected 16 spaces but found 20" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php">
+  <error line="2" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a file comment" source="PEAR.Commenting.FileComment.WrongStyle"/>
+  <error line="3" column="1" severity="warning" message="Comment refers to a TODO task &quot;Autoloading with namespaces&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="6" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a class comment" source="PEAR.Commenting.ClassComment.WrongStyle"/>
+  <error line="10" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="22" column="13" severity="error" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+  <error line="34" column="1" severity="error" message="Multi-line function call not indented correctly; expected 16 spaces but found 20" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ResourceInjector.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="2" column="1" severity="warning" message="Comment refers to a TODO task &quot;Autoloading with namespaces&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="2" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a file comment" source="PEAR.Commenting.FileComment.WrongStyle"/>
+  <error line="4" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a class comment" source="PEAR.Commenting.ClassComment.WrongStyle"/>
+  <error line="5" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="7" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="9" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="9" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="11" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="11" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="14" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="14" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="15" column="1" severity="error" message="Multi-line function call not indented correctly; expected 9 spaces but found 12" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+  <error line="16" column="1" severity="error" message="Multi-line function call not indented correctly; expected 5 spaces but found 8" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Resourceinjector.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="2" column="1" severity="warning" message="Comment refers to a TODO task &quot;Autoloading with namespaces&quot;" source="Generic.Commenting.Todo.TaskFound"/>
+  <error line="2" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a file comment" source="PEAR.Commenting.FileComment.WrongStyle"/>
+  <error line="4" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a class comment" source="PEAR.Commenting.ClassComment.WrongStyle"/>
+  <error line="5" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="7" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="9" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="9" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="11" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="11" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="14" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="14" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="15" column="1" severity="error" message="Multi-line function call not indented correctly; expected 9 spaces but found 12" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+  <error line="16" column="1" severity="error" message="Multi-line function call not indented correctly; expected 5 spaces but found 8" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="2" column="1" severity="error" message="Missing file doc comment" source="PEAR.Commenting.FileComment.Missing"/>
+  <error line="2" column="1" severity="error" message="&quot;require_once&quot; is a statement not a function; no parentheses are required" source="PEAR.Files.IncludingFile.BracketsNotRequired"/>
+  <error line="4" column="1" severity="error" message="There must be exactly one blank line before the tags in class comments" source="PEAR.Commenting.ClassComment.SpacingBeforeTags"/>
+  <error line="4" column="1" severity="error" message="Content of the @author tag must be in the form &quot;Display Name &lt;username@example.com&gt;&quot;" source="PEAR.Commenting.ClassComment.InvalidAuthors"/>
+  <error line="7" column="1" severity="error" message="Missing @category tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="7" column="1" severity="error" message="Missing @package tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="7" column="1" severity="error" message="Missing @license tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="7" column="1" severity="error" message="Missing @link tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action/Helper/ResourceInjector.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="3" column="1" severity="error" message="Extra newline(s) found before file comment short description" source="PEAR.Commenting.FileComment.SpacingBefore"/>
+  <error line="4" column="1" severity="error" message="There must be exactly one blank line before the tags in file comment" source="PEAR.Commenting.FileComment.SpacingBeforeTags"/>
+  <error line="4" column="1" severity="error" message="Content of the @author tag must be in the form &quot;Display Name &lt;username@example.com&gt;&quot;" source="PEAR.Commenting.FileComment.InvalidAuthors"/>
+  <error line="4" column="1" severity="error" message="@author tag comment indented incorrectly; expected 2 spaces but found 1" source="PEAR.Commenting.FileComment.TagIndent"/>
+  <error line="5" column="1" severity="error" message="Content missing for @version tag in file comment" source="PEAR.Commenting.FileComment.EmptyVersion"/>
+  <error line="6" column="1" severity="warning" message="PHP version not specified" source="PEAR.Commenting.FileComment.MissingVersion"/>
+  <error line="6" column="1" severity="error" message="Missing @category tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="6" column="1" severity="error" message="Missing @package tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="6" column="1" severity="error" message="Missing @license tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="6" column="1" severity="error" message="Missing @link tag in file comment" source="PEAR.Commenting.FileComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @category tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @package tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @author tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @license tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="11" column="1" severity="error" message="Missing @link tag in class comment" source="PEAR.Commenting.ClassComment.MissingTag"/>
+  <error line="13" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="15" column="15" severity="error" message="Protected member variable &quot;_resources&quot; must not be prefixed with an underscore" source="PEAR.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="16" column="15" severity="error" message="Protected member variable &quot;_controller&quot; must not be prefixed with an underscore" source="PEAR.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="18" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="21" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="21" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="22" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="24" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="24" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="30" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="30" column="14" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 13" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="31" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="31" column="14" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 13" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="32" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="32" column="14" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 13" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="33" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="33" column="11" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 10" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="33" column="17" severity="error" message="Space found before comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.SpaceBeforeComma"/>
+  <error line="34" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="34" column="14" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 13" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="37" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="37" column="14" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 13" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="38" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="38" column="14" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 13" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="39" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="39" column="11" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 10" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="39" column="17" severity="error" message="Space found before comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.SpaceBeforeComma"/>
+  <error line="40" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="40" column="14" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 13" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+  <error line="42" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="44" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="48" column="15" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="48" column="15" severity="error" message="Protected method name &quot;LexsignExtensions_Controller_Action_Helper_ResourceInjector::_getDependencies&quot; must not be prefixed with an underscore" source="PEAR.NamingConventions.ValidFunctionName.PublicUnderscore"/>
+  <error line="51" column="30" severity="error" message="Multi-line assignments must have the equal sign on the second line" source="PEAR.Formatting.MultiLineAssignment.EqualSignLine"/>
+  <error line="52" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="53" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="53" column="15" severity="error" message="Object operator not indented correctly; expected 13 spaces but found 14" source="PEAR.WhiteSpace.ObjectOperatorIndent.Incorrect"/>
+  <error line="55" column="42" severity="error" message="Multi-line assignments must have the equal sign on the second line" source="PEAR.Formatting.MultiLineAssignment.EqualSignLine"/>
+  <error line="56" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="59" column="1" severity="error" message="Multi-line function call not indented correctly; expected 12 spaces but found 9" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+  <error line="59" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="60" column="1" severity="error" message="Multi-line function call not indented correctly; expected 13 spaces but found 10" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+  <error line="60" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="61" column="1" severity="error" message="Multi-line function call not indented correctly; expected 13 spaces but found 10" source="PEAR.Functions.FunctionCallSignature.Indent"/>
+  <error line="61" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="62" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="67" column="12" severity="error" message="Missing function doc comment" source="PEAR.Commenting.FunctionComment.Missing"/>
+  <error line="69" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+  <error line="69" column="6" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 5" source="PEAR.WhiteSpace.ScopeIndent.Incorrect"/>
+ </file>
+ <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/public/index.php">
+  <error line="2" column="1" severity="error" message="Missing file doc comment" source="PEAR.Commenting.FileComment.Missing"/>
+  <error line="14" column="1" severity="error" message="Opening parenthesis of a multi-line function call must be the last content on the line" source="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
+  <error line="14" column="18" severity="error" message="Opening parenthesis of a multi-line function call must be the last content on the line" source="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
+  <error line="17" column="2" severity="error" message="Closing parenthesis of a multi-line function call must be on a line by itself" source="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/>
+  <error line="17" column="3" severity="error" message="Closing parenthesis of a multi-line function call must be on a line by itself" source="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/>
+  <error line="28" column="13" severity="error" message="Object operator not indented correctly; expected 4 spaces but found 12" source="PEAR.WhiteSpace.ObjectOperatorIndent.Incorrect"/>
+ </file>
+</checkstyle>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/Cache/Backend/ZendServer
+END
+ShMem.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Zend/Cache/Backend/ZendServer/ShMem.php
+END
+Disk.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/Cache/Backend/ZendServer/Disk.php
+END

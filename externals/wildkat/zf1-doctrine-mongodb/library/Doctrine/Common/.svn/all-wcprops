@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/30/trunk/library/Doctrine/Common
+END
+ClassLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/30/trunk/library/Doctrine/Common/ClassLoader.php
+END
+EventManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/EventManager.php
+END
+EventArgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/EventArgs.php
+END
+Lexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Lexer.php
+END
+PropertyChangedListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/PropertyChangedListener.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Version.php
+END
+EventSubscriber.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/EventSubscriber.php
+END
+CommonException.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/CommonException.php
+END
+NotifyPropertyChanged.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/NotifyPropertyChanged.php
+END

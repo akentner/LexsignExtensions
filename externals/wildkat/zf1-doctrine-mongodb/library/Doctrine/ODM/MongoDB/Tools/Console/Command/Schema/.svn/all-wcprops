@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools/Console/Command/Schema
+END
+CreateCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools/Console/Command/Schema/CreateCommand.php
+END
+AbstractCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools/Console/Command/Schema/AbstractCommand.php
+END
+DropCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools/Console/Command/Schema/DropCommand.php
+END

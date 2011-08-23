@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall
+END
+ConferenceDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall/ConferenceDetail.php
+END
+Participant.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall/Participant.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall/Exception.php
+END
+ParticipantDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall/ParticipantDetail.php
+END
+ParticipantStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall/ParticipantStatus.php
+END
+ConferenceSchedule.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall/ConferenceSchedule.php
+END
+ConferenceAccount.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/library/Zend/Service/DeveloperGarden/ConferenceCall/ConferenceAccount.php
+END

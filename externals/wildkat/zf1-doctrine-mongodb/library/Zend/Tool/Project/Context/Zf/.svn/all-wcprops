@@ -1,0 +1,359 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf
+END
+LogsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/LogsDirectory.php
+END
+PublicImagesDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/PublicImagesDirectory.php
+END
+TestLibraryDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestLibraryDirectory.php
+END
+ApplicationConfigFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ApplicationConfigFile.php
+END
+LibraryDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/LibraryDirectory.php
+END
+SessionsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/SessionsDirectory.php
+END
+TestApplicationControllerDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestApplicationControllerDirectory.php
+END
+HtaccessFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/HtaccessFile.php
+END
+ModulesDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ModulesDirectory.php
+END
+ViewScriptFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ViewScriptFile.php
+END
+LayoutScriptFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/LayoutScriptFile.php
+END
+TestLibraryBootstrapFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestLibraryBootstrapFile.php
+END
+FormFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/FormFile.php
+END
+PublicDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/PublicDirectory.php
+END
+ConfigFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ConfigFile.php
+END
+ViewScriptsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ViewScriptsDirectory.php
+END
+TestApplicationControllerFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestApplicationControllerFile.php
+END
+LayoutScriptsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/LayoutScriptsDirectory.php
+END
+FormsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/FormsDirectory.php
+END
+PublicScriptsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/PublicScriptsDirectory.php
+END
+ConfigsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ConfigsDirectory.php
+END
+TestPHPUnitConfigFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestPHPUnitConfigFile.php
+END
+ProjectProviderFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ProjectProviderFile.php
+END
+ApisDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ApisDirectory.php
+END
+DbTableDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/DbTableDirectory.php
+END
+ControllerFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ControllerFile.php
+END
+TestApplicationDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestApplicationDirectory.php
+END
+CacheDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/CacheDirectory.php
+END
+ApplicationDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ApplicationDirectory.php
+END
+AbstractClassFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/AbstractClassFile.php
+END
+ControllersDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ControllersDirectory.php
+END
+UploadsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/UploadsDirectory.php
+END
+DbTableFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/DbTableFile.php
+END
+TestApplicationModuleDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestApplicationModuleDirectory.php
+END
+DataDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/DataDirectory.php
+END
+ModelFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ModelFile.php
+END
+PublicStylesheetsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/PublicStylesheetsDirectory.php
+END
+TestApplicationBootstrapFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestApplicationBootstrapFile.php
+END
+TestApplicationActionMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestApplicationActionMethod.php
+END
+TestLibraryFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestLibraryFile.php
+END
+PublicIndexFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/PublicIndexFile.php
+END
+TestLibraryNamespaceDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestLibraryNamespaceDirectory.php
+END
+LocalesDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/LocalesDirectory.php
+END
+TemporaryDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TemporaryDirectory.php
+END
+ModelsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ModelsDirectory.php
+END
+SearchIndexesDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/SearchIndexesDirectory.php
+END
+ZfStandardLibraryDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ZfStandardLibraryDirectory.php
+END
+ModuleDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ModuleDirectory.php
+END
+ViewControllerScriptsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ViewControllerScriptsDirectory.php
+END
+BootstrapFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/BootstrapFile.php
+END
+DocsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/DocsDirectory.php
+END
+ActionMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ActionMethod.php
+END
+TestApplicationModulesDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestApplicationModulesDirectory.php
+END
+ViewHelpersDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ViewHelpersDirectory.php
+END
+ViewsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ViewsDirectory.php
+END
+TestPHPUnitBootstrapFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestPHPUnitBootstrapFile.php
+END
+LayoutsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/LayoutsDirectory.php
+END
+TestsDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/TestsDirectory.php
+END
+ViewFiltersDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Zend/Tool/Project/Context/Zf/ViewFiltersDirectory.php
+END

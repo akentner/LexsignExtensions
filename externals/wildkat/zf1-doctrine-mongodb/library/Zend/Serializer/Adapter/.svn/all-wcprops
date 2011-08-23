@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter
+END
+PythonPickle.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/PythonPickle.php
+END
+Json.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/Json.php
+END
+PhpSerialize.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/PhpSerialize.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/AdapterInterface.php
+END
+PhpCode.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/PhpCode.php
+END
+Amf0.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/Amf0.php
+END
+AdapterAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/AdapterAbstract.php
+END
+Igbinary.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/Igbinary.php
+END
+Wddx.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/Wddx.php
+END
+Amf3.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Serializer/Adapter/Amf3.php
+END

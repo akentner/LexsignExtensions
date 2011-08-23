@@ -1,0 +1,5 @@
+<? if ($this->sidebar && $this->sidebar instanceof Karacms_Model_Page): ?>
+    <? foreach ($this->sidebar->getTemplates() as $template): ?>
+        <? $template->render(); ?>
+    <? endforeach; ?>
+<? endif; ?>

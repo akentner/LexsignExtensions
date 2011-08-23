@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/26/trunk/library/Zend/Log
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/trunk/library/Zend/Log/Exception.php
+END
+FactoryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/Log/FactoryInterface.php
+END

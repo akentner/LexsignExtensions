@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension
+END
+AttendeeType.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/AttendeeType.php
+END
+OpenSearchStartIndex.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/OpenSearchStartIndex.php
+END
+Who.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Who.php
+END
+AttendeeStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/AttendeeStatus.php
+END
+Recurrence.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Recurrence.php
+END
+OpenSearchItemsPerPage.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/OpenSearchItemsPerPage.php
+END
+When.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/When.php
+END
+Reminder.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Reminder.php
+END
+ExtendedProperty.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/ExtendedProperty.php
+END
+OriginalEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/OriginalEvent.php
+END
+Transparency.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Transparency.php
+END
+Where.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Where.php
+END
+RecurrenceException.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/RecurrenceException.php
+END
+OpenSearchTotalResults.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/OpenSearchTotalResults.php
+END
+EntryLink.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/EntryLink.php
+END
+FeedLink.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/FeedLink.php
+END
+Rating.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Rating.php
+END
+EventStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/EventStatus.php
+END
+Comments.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Comments.php
+END
+Visibility.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Extension/Visibility.php
+END

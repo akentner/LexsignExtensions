@@ -9,17 +9,17 @@ class LexsignExtensions_Application_Resource_Moduleloader
 
     public function init()
     {
-        $this->getBootstrap()->bootstrap('Log');
+        $bootstrap = $this->getBootstrap();
+        $bootstrap->bootstrap('Log');
+        $bootstrap->bootstrap('Autoloader');
+        $bootstrap->bootstrap('Frontcontroller');
 
         /* @var $log Zend_Log */
-        $log = Zend_Registry::get('log');
-        $log->log(__METHOD__ . ' (START)', 8);
+        $log = $bootstrap->getResource('Log');
 
-        $this->getBootstrap()->bootstrap('Autoloader');
-        $this->getBootstrap()->bootstrap('Frontcontroller');
+        $log->log('Moduleloader', 8);
 
-
-        $fc = $this->getBootstrap()->getResource('Frontcontroller');
+        $fc = $bootstrap->getResource('Frontcontroller');
         $modules = $fc->getControllerDirectory();
 
         foreach ($modules as $module => $dir) {
@@ -28,7 +28,10 @@ class LexsignExtensions_Application_Resource_Moduleloader
             $moduleName = ucwords($moduleName);
             $moduleName = str_replace(' ', '', $moduleName);
 
-            $log->log('  -- init Module: ' . $moduleName, 8);
+            $log->log(
+                '  -- init Module: ' . $moduleName . ' ('
+                . $fc->getControllerDirectory(strtolower($moduleName)) . ')', 8
+            );
 
             $loader = new Zend_Application_Module_Autoloader(
                     array(
@@ -37,10 +40,11 @@ class LexsignExtensions_Application_Resource_Moduleloader
                     )
             );
             $loader->addResourceType('form', 'forms', 'Form')
-                ->addResourceType('model', 'models', 'Model');
+                   ->addResourceType('model', 'models', 'Model')
+            ;
         }
 
-        $log->log(__METHOD__ . ' (END)', 8);
+        $log->log('', 8);
         return true;
     }
 

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>18</TotalClasses>
+        <ConcreteClasses>18</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>3</Ca>
+        <Ce>4</Ce>
+        <A>0</A>
+        <I>0.57142857142857</I>
+        <D>0.42857142857143</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/IndexController.php">IndexController</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/application/models/Test.php">Application_Model_Test</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Doctrine.php">LexsignExtensions_Application_Resource_Doctrine</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Log.php">LexsignExtensions_Application_Resource_Log</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php">LexsignExtensions_Application_Resource_Moduleloader</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php">LexsignExtensions_Application_Resource_Moduleloader</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ResourceInjector.php">LexsignExtensions_Application_Resource_Resourceinjector</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Resourceinjector.php">LexsignExtensions_Application_Resource_Resourceinjector</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action.php">LexsignExtension_Controller_Action</Class>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Controller/Action/Helper/ResourceInjector.php">LexsignExtensions_Controller_Action_Helper_ResourceInjector</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>+spl</Package>
+        <Package>Doctrine\Common</Package>
+        <Package>Doctrine\ORM</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Configuration\Bootstrap</Package>
+        <Package>Default\Controller</Package>
+        <Package>LexsignExtensions\Application</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Configuration\Bootstrap">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/application/Bootstrap.php">Bootstrap</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Default\Controller">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/ErrorController.php">ErrorController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="LexsignExtensions\Application">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Autoloader.php">LexsignExtensions_Application_Resource_Autoloader</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

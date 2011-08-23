@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools
+END
+DisconnectedClassMetadataFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools/DisconnectedClassMetadataFactory.php
+END
+DocumentGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools/DocumentGenerator.php
+END
+DocumentRepositoryGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Tools/DocumentRepositoryGenerator.php
+END

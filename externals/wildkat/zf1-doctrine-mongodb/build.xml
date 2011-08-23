@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ZF 1 + Doctrine ODM" default="build">
+
+    <!-- The project version -->
+    <property file="kevin.properties" />
+
+    <!-- the main target -->
+    <target name="build" depends="svnupdate,phpunit">
+
+        <!-- copy the files to the tmp directory -->
+        <mkdir dir="tmp" />
+        <copy todir="tmp" overwrite="true" preservelastmodified="true">
+            <fileset dir=".">
+                <include name="application/**" />
+                <include name="bin/**" />
+                <include name="library/Wildkat/**" />
+            </fileset>
+            <filterchain>
+                <replacetokens>
+                    <token key="version_string" value="${version}" />
+                </replacetokens>
+            </filterchain>
+        </copy>
+
+        <!-- zip the up -->
+        <zip destfile="zf1_doctrine_mongo-${version}.zip">
+            <fileset dir="tmp">
+                <include name="**/**" />
+            </fileset>
+        </zip>
+
+        <!-- remove the tmp directory -->
+        <delete dir="tmp" verbose="true" />
+
+        <!-- commit any other changes -->
+        <svncommit
+            username="${svnuser}"
+            password="${svnpass}"
+            message="Commiting changes from phing build"
+            workingcopy="." />
+    </target>
+
+    <target name="svnupdate">
+        <exec dir="." logoutput="true" command="svn up" />
+    </target>
+
+    <!-- run PHPUnit -->
+    <target name="phpunit">
+        <exec dir="tests/" logoutput="true" command="phpunit" />
+    </target>
+
+</project>

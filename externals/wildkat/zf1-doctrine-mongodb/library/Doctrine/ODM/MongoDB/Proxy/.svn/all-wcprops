@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/30/trunk/library/Doctrine/ODM/MongoDB/Proxy
+END
+ProxyFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/library/Doctrine/ODM/MongoDB/Proxy/ProxyFactory.php
+END
+ProxyException.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Proxy/ProxyException.php
+END
+Proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Proxy/Proxy.php
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml
+END
+Element.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/Element.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/Exception.php
+END
+KeyInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/KeyInfo.php
+END
+EncryptedKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/EncryptedKey.php
+END
+EncryptedData.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/EncryptedData.php
+END
+Assertion.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/Assertion.php
+END
+SecurityTokenReference.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/SecurityTokenReference.php
+END
+Security.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/Security.php
+END

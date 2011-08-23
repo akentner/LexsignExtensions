@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter
+END
+Activemq.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/Activemq.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/Null.php
+END
+Array.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/Array.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/AdapterInterface.php
+END
+Memcacheq.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/Memcacheq.php
+END
+AdapterAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/AdapterAbstract.php
+END
+PlatformJobQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/PlatformJobQueue.php
+END
+Db.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/library/Zend/Queue/Adapter/Db.php
+END

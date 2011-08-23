@@ -14,34 +14,42 @@ class LexsignExtensions_Controller_Action_Helper_ResourceInjector
 {
     protected $_resources;
     protected $_controller;
+    protected $_systemResources = array('view', 'layout');
 
     public function preDispatch ()
     {
+        $bootstrap = $this->getBootstrap();
+        $bootstrap->bootstrap('Log');
 
-    	$log = Zend_Registry::get('log');
-       	$log->log(__METHOD__ . ' (START)', 8);
+        $log = $bootstrap->getResource('Log');
+       	$log->log('Resource Injector', 8);
 
     	$this->_controller = $this->getActionController();
-        $this->_controller->_bootstrap = $this->getBootstrap();
+        $this->_controller->bootstrap = $bootstrap;
 
         foreach ($this->_getDependencies() as $name) {
+
+            if (in_array($name, $this->_systemResources)) {
+	        	$log->log('  -- cannot injected plugin resource ' . $name , 8);
+                continue;
+            }
 
             if ($this->getBootstrap()->hasPluginResource($name)) {
             	$fn = 'get' . ucfirst($name);
             	$resource = $this->getBootstrap()->getPluginResource($name)->$fn();
-	            $this->_controller->{'_' . $name} = $resource;
-	        	$log->log('  -- injected plugin resource "$_' . $name . '" as ' . get_class($resource) , 8);
+	            $this->_controller->{$name} = $resource;
+	        	$log->log('  -- injected plugin resource "$' . $name . '" as ' . get_class($resource) , 8);
             	continue;
             }
             if ($this->getBootstrap()->hasResource($name)) {
             	$resource = $this->getBootstrap()->getResource($name);
-	            $this->_controller->{'_' . $name} = $resource;
-	        	$log->log('  -- injected resource"$_' . $name . '" as ' . get_class($resource) , 8);
+	            $this->_controller->{$name} = $resource;
+	        	$log->log('  -- injected resource "$' . $name . '" as ' . get_class($resource) , 8);
             	continue;
             }
-           	throw new DomainException("Unable to find dependency by name '$name'");
+           	throw new DomainException("Unable to find dependency with name '$name'");
         }
-       	$log->log(__METHOD__ . ' (END)', 8);
+        $log->log('', 8);
         return true;
     }
 

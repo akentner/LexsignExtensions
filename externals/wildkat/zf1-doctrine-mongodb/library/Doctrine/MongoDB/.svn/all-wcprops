@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/30/trunk/library/Doctrine/MongoDB
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/Iterator.php
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/30/trunk/library/Doctrine/MongoDB/Collection.php
+END
+Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/Connection.php
+END
+IteratorAggregate.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/IteratorAggregate.php
+END
+LoggableDatabase.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/LoggableDatabase.php
+END
+Database.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/Database.php
+END
+Events.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/Events.php
+END
+Configuration.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/Configuration.php
+END
+LoggableCursor.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/LoggableCursor.php
+END
+Loggable.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/Loggable.php
+END
+Cursor.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/Cursor.php
+END
+GridFSFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/GridFSFile.php
+END
+GridFS.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/GridFS.php
+END
+ArrayIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/library/Doctrine/MongoDB/ArrayIterator.php
+END
+LoggableCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/30/trunk/library/Doctrine/MongoDB/LoggableCollection.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Books
+END
+VolumeEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Books/VolumeEntry.php
+END
+VolumeFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Books/VolumeFeed.php
+END
+VolumeQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Books/VolumeQuery.php
+END
+CollectionEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Books/CollectionEntry.php
+END
+CollectionFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Books/CollectionFeed.php
+END

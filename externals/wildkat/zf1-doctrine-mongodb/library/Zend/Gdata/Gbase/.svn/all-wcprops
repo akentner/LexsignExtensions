@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase
+END
+ItemEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/ItemEntry.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/Entry.php
+END
+ItemFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/ItemFeed.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/Feed.php
+END
+ItemQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/ItemQuery.php
+END
+SnippetEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/SnippetEntry.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/Query.php
+END
+SnippetFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/SnippetFeed.php
+END
+SnippetQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Zend/Gdata/Gbase/SnippetQuery.php
+END

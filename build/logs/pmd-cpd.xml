@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd version="phpcpd 1.3.2">
+  <duplication lines="17" tokens="42">
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php" line="6"/>
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php" line="6"/>
+    <codefragment>class LexsignExtensions_Application_Resource_Moduleloader
+    extends \Zend_Application_Resource_ResourceAbstract
+{
+
+    public function init()
+    {
+        $this-&gt;getBootstrap()-&gt;bootstrap('Log');
+
+        /* @var $log Zend_Log */
+        $log = Zend_Registry::get('log');
+        $log-&gt;log(__METHOD__ . ' (START)', 8);
+
+        $this-&gt;getBootstrap()-&gt;bootstrap('Autoloader');
+        $this-&gt;getBootstrap()-&gt;bootstrap('Frontcontroller');
+
+
+        $fc = $this-&gt;getBootstrap()-&gt;getResource('Frontcontroller');
+</codefragment>
+  </duplication>
+  <duplication lines="19" tokens="40">
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/PHPDriver.php" line="61"/>
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Mapping/Driver/AnnotationDriver.php" line="291"/>
+    <codefragment>    public function getAllClassNames()
+    {
+        if ($this-&gt;classNames !== null) {
+            return $this-&gt;classNames;
+        }
+
+        if (!$this-&gt;paths) {
+            throw MongoDBException::pathRequired();
+        }
+
+        $classes = array();
+        $includedFiles = array();
+
+        foreach ($this-&gt;paths as $path) {
+            if ( ! is_dir($path)) {
+                throw MongoDBException::fileMappingDriversRequireConfiguredDirectoryPath();
+            }
+
+            $iterator = new \RecursiveIteratorIterator(
+</codefragment>
+  </duplication>
+  <duplication lines="19" tokens="41">
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/AnnotationDriver.php" line="480"/>
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Mapping/Driver/StaticPHPDriver.php" line="82"/>
+    <codefragment>    public function getAllClassNames()
+    {
+        if ($this-&gt;_classNames !== null) {
+            return $this-&gt;_classNames;
+        }
+
+        if (!$this-&gt;_paths) {
+            throw MappingException::pathRequired();
+        }
+
+        $classes = array();
+        $includedFiles = array();
+
+        foreach ($this-&gt;_paths as $path) {
+            if ( ! is_dir($path)) {
+                throw MappingException::fileMappingDriversRequireConfiguredDirectoryPath($path);
+            }
+
+            $iterator = new \RecursiveIteratorIterator(
+</codefragment>
+  </duplication>
+  <duplication lines="11" tokens="16">
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/PersistentCollection.php" line="355"/>
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/PersistentCollection.php" line="411"/>
+    <codefragment>    public function contains($element)
+    {
+        $this-&gt;initialize();
+        return $this-&gt;coll-&gt;contains($element);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function exists(Closure $p)
+    {
+</codefragment>
+  </duplication>
+  <duplication lines="19" tokens="31">
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/PersistentCollection.php" line="448"/>
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/PersistentCollection.php" line="510"/>
+    <codefragment>    public function getIterator()
+    {
+        $this-&gt;initialize();
+        return $this-&gt;coll-&gt;getIterator();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function map(Closure $func)
+    {
+        $this-&gt;initialize();
+        return $this-&gt;coll-&gt;map($func);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function filter(Closure $p)
+</codefragment>
+  </duplication>
+  <duplication lines="19" tokens="19">
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/PersistentCollection.php" line="537"/>
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/PersistentCollection.php" line="589"/>
+    <codefragment>    public function __sleep()
+    {
+        return array('coll', 'initialized');
+    }
+
+    /* ArrayAccess implementation */
+
+    /**
+     * @see containsKey()
+     */
+    public function offsetExists($offset)
+    {
+        return $this-&gt;containsKey($offset);
+    }
+
+    /**
+     * @see get()
+     */
+    public function offsetGet($offset)
+</codefragment>
+  </duplication>
+  <duplication lines="26" tokens="28">
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ODM/MongoDB/Tools/Console/MetadataFilter.php" line="22"/>
+    <file path="/var/www/vhosts/LexsignExtension/httpdocs/src/library/Doctrine/ORM/Tools/Console/MetadataFilter.php" line="22"/>
+    <codefragment>namespace Doctrine\ODM\MongoDB\Tools\Console;
+
+/**
+ * Used by CLI Tools to restrict entity-based commands to given patterns.
+ *
+ * @license     http://www.opensource.org/licenses/lgpl-license.php LGPL
+ * @link        www.doctrine-project.com
+ * @since       1.0
+ * @version     $Revision$
+ * @author      Benjamin Eberlei &lt;kontakt@beberlei.de&gt;
+ * @author      Guilherme Blanco &lt;guilhermeblanco@hotmail.com&gt;
+ * @author      Jonathan Wage &lt;jonwage@gmail.com&gt;
+ * @author      Roman Borschel &lt;roman@code-factory.org&gt;
+ */
+class MetadataFilter extends \FilterIterator implements \Countable
+{
+    /**
+     * Filter Metadatas by one or more filter options.
+     * 
+     * @param array $metadatas
+     * @param array|string $filter
+     * @return array
+     */
+    static public function filter(array $metadatas, $filter)
+    {
+        $metadatas = new MetadataFilter(new \ArrayIterator($metadatas), $filter);
+</codefragment>
+  </duplication>
+</pmd-cpd>

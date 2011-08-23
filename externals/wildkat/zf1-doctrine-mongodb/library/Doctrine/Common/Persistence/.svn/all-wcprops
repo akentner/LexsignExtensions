@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Persistence
+END
+ObjectManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Persistence/ObjectManager.php
+END
+ObjectRepository.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Persistence/ObjectRepository.php
+END

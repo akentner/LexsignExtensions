@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination
+END
+Unknown.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/Unknown.php
+END
+FitBoundingBoxHorizontally.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/FitBoundingBoxHorizontally.php
+END
+FitBoundingBoxVertically.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/FitBoundingBoxVertically.php
+END
+FitHorizontally.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/FitHorizontally.php
+END
+FitVertically.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/FitVertically.php
+END
+Explicit.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/Explicit.php
+END
+FitBoundingBox.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/FitBoundingBox.php
+END
+Fit.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/Fit.php
+END
+Named.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/Named.php
+END
+Zoom.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/Zoom.php
+END
+FitRectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Zend/Pdf/Destination/FitRectangle.php
+END

@@ -25,12 +25,11 @@ class LexsignExtensions_Application_Resource_Log extends Zend_Application_Resour
         }
         $this->_log = parent::init();
         $this->_log->addPriority('INIT', 8);
-        $this->_log->log(__METHOD__ . ' (START)', 8);
+        $this->_log->log('Log', 8);
 
         $this->_logOptions();
         Zend_Registry::set("log", $this->_log);
-
-        $this->_log->log(__METHOD__ . ' (END)', 8);
+        $this->_log->log('', 8);
         return $this->_log;
     }
 

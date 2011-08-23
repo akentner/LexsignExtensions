@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="1" failures="0" errors="0" time="0.032001">
+    <testsuite name="Application" tests="1" assertions="1" failures="0" errors="0" time="0.032001">
+      <testsuite name="BasicTest" file="/var/www/vhosts/LexsignExtension/httpdocs/tests/application/basicTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.032001">
+        <testcase name="testBasic" class="BasicTest" file="/var/www/vhosts/LexsignExtension/httpdocs/tests/application/basicTest.php" line="4" assertions="1" time="0.032001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="LexsignExtensions" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+  </testsuite>
+</testsuites>

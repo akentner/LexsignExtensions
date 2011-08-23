@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="1.0.0" timestamp="2011-06-02T15:04:59+02:00">
+  <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/application/controllers/ErrorController.php">
+    <violation beginline="39" endline="76" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Default\Controller" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="ErrorController" method="errorAction" priority="1">
+      The method errorAction() has a Cyclomatic Complexity of 7.
+    </violation>
+  </file>
+  <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/application/models/Test.php">
+    <violation beginline="18" endline="18" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id
+    </violation>
+  </file>
+  <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Doctrine.php">
+    <violation beginline="25" endline="25" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $em
+    </violation>
+    <violation beginline="48" endline="123" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="+global" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="LexsignExtensions_Application_Resource_Doctrine" method="_getConfiguration" priority="1">
+      The method _getConfiguration() has a Cyclomatic Complexity of 14.
+    </violation>
+  </file>
+  <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/ModuleLoader.php">
+    <violation beginline="22" endline="22" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $fc
+    </violation>
+  </file>
+  <file name="/var/www/vhosts/LexsignExtension/httpdocs/src/library/LexsignExtensions/Application/Resource/Moduleloader.php">
+    <violation beginline="22" endline="22" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $fc
+    </violation>
+  </file>
+</pmd>

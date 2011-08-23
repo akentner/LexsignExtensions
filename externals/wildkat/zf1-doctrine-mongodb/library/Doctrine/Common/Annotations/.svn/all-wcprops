@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/30/trunk/library/Doctrine/Common/Annotations
+END
+AnnotationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Annotations/AnnotationException.php
+END
+Annotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Annotations/Annotation.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/library/Doctrine/Common/Annotations/Parser.php
+END
+AnnotationReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/30/trunk/library/Doctrine/Common/Annotations/AnnotationReader.php
+END
+Lexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Doctrine/Common/Annotations/Lexer.php
+END

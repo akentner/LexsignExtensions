@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/trunk/library/Zend/Ldap/Node/RootDse
+END
+eDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Zend/Ldap/Node/RootDse/eDirectory.php
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/library/Zend/Ldap/Node/RootDse/ActiveDirectory.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/library/Zend/Ldap/Node/RootDse/OpenLdap.php
+END

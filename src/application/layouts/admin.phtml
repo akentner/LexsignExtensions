@@ -1,0 +1,30 @@
+<?= '<?xml version="1.0" encoding="utf-8"?>' ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+    <head>
+        <meta http-equiv=Content-Type content="text/html; charset=UTF-8"/>
+        <?php
+        $this->headLink()->appendStylesheet('/css/screen.css', 'screen, projection');
+        $this->headLink()->appendStylesheet('/css/ie.css', 'screen, projection', 'IE');
+        $this->headLink()->appendStylesheet('/css/print.css', 'print');
+        $this->headLink()->appendStylesheet('/css/plugins/silksprite/sprite.css', 'screen, projection');
+        $this->headLink()->appendStylesheet('/css/main.css', 'screen, projection');
+        $this->headLink()->appendStylesheet('/js/extjs/resources/css/ext-all.css', 'screen, projection');
+
+
+//        $this->headScript()->appendFile('/js/extjs/ext-jquery-adapter-debug.js');
+//        $this->headScript()->appendFile('/js/extjs/ext-all-debug-w-comments.js');
+
+        $this->headScript()->appendFile('/js/extjs/adapter/jquery/ext-jquery-adapter.js');
+        $this->headScript()->appendFile('/js/extjs/ext-all.js');
+        ?>
+        <?= $this->headLink(); ?>
+        <?= $this->headScript(); ?>
+
+    </head>
+
+    <body>
+        <div class="admin">
+            <?= $this->layout()->content ?>
+        </div>
+    </body>
+</html>

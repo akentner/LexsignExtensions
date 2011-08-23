@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/KeyInfo
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/KeyInfo/Interface.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/KeyInfo/Abstract.php
+END
+Default.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/KeyInfo/Default.php
+END
+XmlDSig.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/library/Zend/InfoCard/Xml/KeyInfo/XmlDSig.php
+END

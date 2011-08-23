@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types
+END
+CustomIdType.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/CustomIdType.php
+END
+KeyType.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/KeyType.php
+END
+BinDataUUIDType.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataUUIDType.php
+END
+IntType.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/IntType.php
+END
+CollectionType.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/CollectionType.php
+END
+IdType.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/IdType.php
+END
+BinDataCustomType.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataCustomType.php
+END
+BinDataType.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataType.php
+END
+TimestampType.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/TimestampType.php
+END
+FloatType.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/FloatType.php
+END
+StringType.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/StringType.php
+END
+BinDataMD5Type.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataMD5Type.php
+END
+DateType.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/DateType.php
+END
+BinDataFuncType.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/BinDataFuncType.php
+END
+FileType.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/FileType.php
+END
+BooleanType.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/BooleanType.php
+END
+Type.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/Type.php
+END
+HashType.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/HashType.php
+END
+IncrementType.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/library/Doctrine/ODM/MongoDB/Mapping/Types/IncrementType.php
+END

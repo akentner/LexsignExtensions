@@ -4,3 +4,5 @@
 .buildpath
 /nbproject/private/
 /src/var/
+development.properties
+production.properties

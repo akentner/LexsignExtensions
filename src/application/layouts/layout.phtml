@@ -1,0 +1,41 @@
+<?= '<?xml version="1.0" encoding="utf-8"?>' ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+    <head>
+        <meta http-equiv=Content-Type content="text/html; charset=UTF-8"/>
+        <?php
+        $this->headLink()->appendStylesheet('/css/screen.css', 'screen, projection');
+        $this->headLink()->appendStylesheet('/css/ie.css', 'screen, projection', 'IE');
+        $this->headLink()->appendStylesheet('/css/print.css', 'print');
+        $this->headLink()->appendStylesheet('/css/plugins/silksprite/sprite.css', 'screen, projection');
+        $this->headLink()->appendStylesheet('/css/main.css', 'screen, projection');
+        ?>
+        <?php echo $this->headLink(); ?>
+        <!-- jQuery BEGIN -->
+        <?php
+        echo $this->jQuery()
+                ->setVersion('1.4.2')
+                ->setUiVersion('1.8.2');
+        ?>
+        <!-- jQuery END -->
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="span-24 last layout-header">
+                <?php echo APPLICATION_ENV; ?>
+                <?php echo __FILE__; ?>
+
+            </div>
+            <div class="span-16 layout-main">
+                    <?php echo $this->layout()->content ?>
+            </div>
+            <aside class="span-8 last layout-sidebar">
+                    <?php echo $this->layout()->sidebar ?>
+            </aside>
+            <footer class="span-24 last layout-footer">
+                    <?php echo $this->layout()->footer ?>
+            </footer>
+        </div>
+        <?php echo $this->layout()->javascript ?>
+    </body>
+</html>
